@@ -1,0 +1,150 @@
+{
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 139,
+      "sha256": "8770343eb527fa72dcd20e725bbd97fc3bca6f229db4cea10ce335d4a3f7b3ab"
+    },
+    {
+      "path": "configs/environment_sweep.json",
+      "bytes": 1926,
+      "sha256": "5da10cd76eb687861fe7a8ae9a89696606fbd106babce0fca88cdd57dbe910d6"
+    },
+    {
+      "path": "configs/fixed_proxy_rate.json",
+      "bytes": 1986,
+      "sha256": "790c9ebe5d7eeeb5227e70d2f9f147555e06668515d67223442fc7e44eb04adb"
+    },
+    {
+      "path": "configs/scale_free.json",
+      "bytes": 2199,
+      "sha256": "4d16f231eee41757c302706e00de63eeb0ae636619c6b5c2aece1f3a2fbe0839"
+    },
+    {
+      "path": "configs/small_world.json",
+      "bytes": 2228,
+      "sha256": "eba8d6173cfce671cca4308ec33b7955d621f87295bf34697afa96403ee6a5b1"
+    },
+    {
+      "path": "configs/spatial.json",
+      "bytes": 1612,
+      "sha256": "5c825a96e333fcc610155c78ae13f835f1bcf179f55d00414b0ecd380c151c1f"
+    },
+    {
+      "path": "configs/temporal.json",
+      "bytes": 1544,
+      "sha256": "528fdfe058b58a628243678708a0ff1ec750b9b83db089c016ec00f97ec262c6"
+    },
+    {
+      "path": "docs/figure-code-map.md",
+      "bytes": 3150,
+      "sha256": "cbec17d28d6769995564a1442aee34622289005b6b34d78505fca542f0f8fad6"
+    },
+    {
+      "path": "lattice/exp4_common.py",
+      "bytes": 15413,
+      "sha256": "d1fdd13ef5dfe65ed1fe965b928f01cce300ecbf2cbf584fcdb5a9170c78d969"
+    },
+    {
+      "path": "lattice/experiment_1_environment_sweep.py",
+      "bytes": 27242,
+      "sha256": "96c6eabd9a774009268c32c07fc6c5e6bc6d767cc10a8ea4f080cfb4a0b872ec"
+    },
+    {
+      "path": "lattice/experiment_2_ablation.py",
+      "bytes": 26450,
+      "sha256": "5fa73e759b61b06114f499a30386ebed71c4f79cbde578adf866979b79b264a8"
+    },
+    {
+      "path": "lattice/experiment_3_spatial_snapshots.py",
+      "bytes": 36814,
+      "sha256": "ddc460a819709dbcdb12685e14006abe4edc12d7c9cbc6abac63b2bacc30d5ce"
+    },
+    {
+      "path": "lattice/experiment_3_temporal_dynamics.py",
+      "bytes": 27425,
+      "sha256": "d8a14fc826ba3951cab759a890c27d541a9e5eaa8da8044b7ca2b717909028ca"
+    },
+    {
+      "path": "lattice/experiment_4_A_alpha_data.py",
+      "bytes": 2397,
+      "sha256": "d8e7f9fd0a11b263703e591dafadb255ba252331eb86eac2a67d3a7a3367e630"
+    },
+    {
+      "path": "lattice/experiment_4_A_wM_data.py",
+      "bytes": 2525,
+      "sha256": "57a493c43170f407cc0cecb4701b3856323320d713deda032c8e432de8e3ca4e"
+    },
+    {
+      "path": "lattice/experiment_4_wM_alpha_data.py",
+      "bytes": 2665,
+      "sha256": "1f07d6508786129f59085804fbb042ce613bf258d692c74be989f9910935769e"
+    },
+    {
+      "path": "lattice/MODEL.py",
+      "bytes": 29887,
+      "sha256": "7e23ff89a8f4ff9e521070ddb590b5ff4f510ee504b8b6c1cb7e88eb56bc5261"
+    },
+    {
+      "path": "lattice/plot_experiment_1_nature_style.py",
+      "bytes": 18718,
+      "sha256": "ced299c565dc55e9f1238916e036f699df362b5bfcab1269707a4b7ba96902f9"
+    },
+    {
+      "path": "lattice/plot_experiment_2_nature_style.py",
+      "bytes": 21713,
+      "sha256": "a036a039848988dc785a9dde4531d1cbebecf3425a775917c05d8edfb0c6aa92"
+    },
+    {
+      "path": "lattice/plot_experiment_4_heatmaps.py",
+      "bytes": 16623,
+      "sha256": "9b2378e85a9ca5530a347f9661c0c7de7e865d77dfed048548991c0588415bb4"
+    },
+    {
+      "path": "lattice/plot_fixed_memory_rate_comparison.py",
+      "bytes": 11556,
+      "sha256": "a0e295c88d3f23e17bc18c8029b1983e5c3fc515fcc8507a6e473cecc924b759"
+    },
+    {
+      "path": "lattice/run_experiment_4_all.py",
+      "bytes": 2269,
+      "sha256": "253e5e3214d2b112a551625669ccbb024cb745b498ec38298489e71f9d08c844"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5419,
+      "sha256": "c2bd4f51fbfbc35d182d663b4b36f9990dfc8d37509caf69835d910cd6074d98"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 47,
+      "sha256": "3fc7c9f20fc55739da4fc44b7d74b6d64d3e568247bb1122e0546cfe5f7a9d66"
+    },
+    {
+      "path": "topology_robustness/experiment2_core.py",
+      "bytes": 25945,
+      "sha256": "c556ceb54063e873d79d85dac75b214d0e65337756826efcae0c62537156c881"
+    },
+    {
+      "path": "topology_robustness/experiment2_scale_free.py",
+      "bytes": 1378,
+      "sha256": "6bbb1adea3cc91220ae370e7db863463610a278b06f697c46577713c5ad4a6c3"
+    },
+    {
+      "path": "topology_robustness/experiment2_small_world.py",
+      "bytes": 1807,
+      "sha256": "3bef1e4cdcd78f3f412464ed673ca6ec107e753c8482bec213f25bc787081a15"
+    },
+    {
+      "path": "topology_robustness/scale_free_model.py",
+      "bytes": 29239,
+      "sha256": "48246a0e005378fc32ae18f8e55c962e591438ce66c74e88b84b686fe3e5fdb8"
+    },
+    {
+      "path": "topology_robustness/small_world_model.py",
+      "bytes": 29863,
+      "sha256": "128f56c96afa131e8c8c0e320e2fae209d4ee3db9b181d2586cc73ce6c1eeb4c"
+    }
+  ],
+  "scope": "Source code, saved run metadata, and reproduction documentation; no raw outputs or manuscript drafts."
+}
