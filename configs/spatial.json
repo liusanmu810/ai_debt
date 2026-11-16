@@ -1,0 +1,71 @@
+{
+  "experiment": "Experiment 3 refined spatial snapshots",
+  "regulation_formula": "Stim = Aff * exp[-alpha_conc * rho * (1 - M_prime)]",
+  "arguments": {
+    "grid_size": 200,
+    "steps": 100000,
+    "A_env": 0.6,
+    "seed": 20260514,
+    "output_dir": "results_exp3_spatial_core_concentration_gate_A0.8",
+    "model_set": "core",
+    "save_pdf": false,
+    "save_tiff": false,
+    "init_D_max": 0.02,
+    "snapshot_times": [
+      0,
+      100,
+      1000,
+      20000,
+      100000
+    ]
+  },
+  "model_order": [
+    "Payoff-only",
+    "Full Model"
+  ],
+  "base_params": {
+    "delta_D": 0.06,
+    "beta_a": 0.095,
+    "omega_D": 0.42,
+    "beta_N": 0.01,
+    "mu_x": 0.04,
+    "kappa_D": 0.32,
+    "spillover_include_self": false,
+    "r_public": 3.2,
+    "theta_D": 0.55,
+    "b_ai": 2.3,
+    "chi_x": 0.55,
+    "c_x": 1.0,
+    "c_a": 0.21,
+    "tau_D": 0.45,
+    "lambda_0": 0.1,
+    "lambda_A": 0.48,
+    "u_D": 2.8,
+    "w_payoff": 0.88,
+    "w_memory": 0.12,
+    "K_P": 1.2,
+    "K_M": 1.2,
+    "delta": 0.3,
+    "lambda_a": 1.0,
+    "concentration_include_self": false,
+    "alpha_conc": 0.18,
+    "screening_mode": 3,
+    "sigma_min": 0.001,
+    "sigma_max": 0.055,
+    "learning_rate": 0.13,
+    "init_D_max": 0.02
+  },
+  "model_configs": {
+    "Payoff-only": {
+      "w_payoff": 1.0,
+      "w_memory": 0.0,
+      "alpha_conc": 0.0
+    },
+    "Full Model": {
+      "w_payoff": 0.88,
+      "w_memory": 0.12,
+      "alpha_conc": 0.18
+    }
+  },
+  "figure_note": "Representative realization with a shared initial state and seed."
+}

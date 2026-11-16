@@ -1,0 +1,93 @@
+{
+  "experiment": "Experiment 2 topology robustness",
+  "topology": "scale_free",
+  "network_parameters": {
+    "scale_free_m": 2
+  },
+  "num_nodes": 10000,
+  "steps": 50000,
+  "steady_window": 500,
+  "sample_interval": 10,
+  "runs": 10,
+  "seed_base": 20260514,
+  "init_D_max": 0.02,
+  "A_values": [
+    0.0,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1.0
+  ],
+  "models": [
+    "Payoff-only",
+    "Payoff+MemoryAffinity",
+    "Payoff+ConcentrationGate",
+    "Full Model"
+  ],
+  "regulation_formula": "Stim = Aff * exp[-alpha_conc * rho * (1 - M_prime)]",
+  "technical_debt_role": "D remains in debt dynamics, payoff, and reliability-memory formation; D is absent from the concentration gate.",
+  "ablation_design": {
+    "factor_1": "reliability-memory affinity (w_memory > 0)",
+    "factor_2": "concentration gate (alpha_conc > 0)",
+    "configurations": {
+      "Payoff-only": {
+        "w_payoff": 1.0,
+        "w_memory": 0.0,
+        "alpha_conc": 0.0
+      },
+      "Payoff+MemoryAffinity": {
+        "w_payoff": 0.88,
+        "w_memory": 0.12,
+        "alpha_conc": 0.0
+      },
+      "Payoff+ConcentrationGate": {
+        "w_payoff": 1.0,
+        "w_memory": 0.0,
+        "alpha_conc": 0.18
+      },
+      "Full Model": {
+        "w_payoff": 0.88,
+        "w_memory": 0.12,
+        "alpha_conc": 0.18
+      }
+    }
+  },
+  "base_model_params": {
+    "delta_D": 0.06,
+    "beta_a": 0.095,
+    "omega_D": 0.42,
+    "beta_N": 0.01,
+    "mu_x": 0.04,
+    "kappa_D": 0.32,
+    "spillover_include_self": false,
+    "r_public": 3.2,
+    "theta_D": 0.55,
+    "b_ai": 2.3,
+    "chi_x": 0.55,
+    "c_x": 1.0,
+    "c_a": 0.21,
+    "tau_D": 0.45,
+    "lambda_0": 0.1,
+    "lambda_A": 0.48,
+    "u_D": 2.8,
+    "w_payoff": 0.88,
+    "w_memory": 0.12,
+    "K_P": 1.2,
+    "K_M": 1.2,
+    "delta": 0.3,
+    "lambda_a": 1.0,
+    "concentration_include_self": false,
+    "alpha_conc": 0.18,
+    "sigma_min": 0.001,
+    "sigma_max": 0.055,
+    "learning_rate": 0.13,
+    "init_D_max": 0.02
+  },
+  "uncertainty": "95% Student-t confidence interval across independent seeds"
+}
