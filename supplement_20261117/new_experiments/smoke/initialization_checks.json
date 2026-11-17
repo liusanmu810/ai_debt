@@ -1,0 +1,33 @@
+{
+  "states": [
+    {
+      "model": "Proxy-coupled diffusion (no gate)",
+      "screening_mode": 0,
+      "x": "7a6556738aa4e2fd1733d258ddd9262e0f64abfd4d74889d9d70f0e11c0bdb80",
+      "a": "b75003e1e19ddef4a6d15356afe0919651ec1455b1c434effdd423596a4c0847",
+      "D": "b9275134423524afc13700c0e84ea61c0b16bc93bcb76b8c38cce1cbfcd03f1b",
+      "M": "cfbe86862c11d440e83b0f3890f64c5e284ee95bbdea5623e71be68e2b913ee9",
+      "rng": "f44fa2712e67cb0e6383686a534d65e793f98db04f2d0b90abc9f56773e513f1"
+    },
+    {
+      "model": "Reliability-only gate",
+      "screening_mode": 1,
+      "x": "7a6556738aa4e2fd1733d258ddd9262e0f64abfd4d74889d9d70f0e11c0bdb80",
+      "a": "b75003e1e19ddef4a6d15356afe0919651ec1455b1c434effdd423596a4c0847",
+      "D": "b9275134423524afc13700c0e84ea61c0b16bc93bcb76b8c38cce1cbfcd03f1b",
+      "M": "cfbe86862c11d440e83b0f3890f64c5e284ee95bbdea5623e71be68e2b913ee9",
+      "rng": "f44fa2712e67cb0e6383686a534d65e793f98db04f2d0b90abc9f56773e513f1"
+    },
+    {
+      "model": "Full model (true concentration)",
+      "screening_mode": 3,
+      "x": "7a6556738aa4e2fd1733d258ddd9262e0f64abfd4d74889d9d70f0e11c0bdb80",
+      "a": "b75003e1e19ddef4a6d15356afe0919651ec1455b1c434effdd423596a4c0847",
+      "D": "b9275134423524afc13700c0e84ea61c0b16bc93bcb76b8c38cce1cbfcd03f1b",
+      "M": "cfbe86862c11d440e83b0f3890f64c5e284ee95bbdea5623e71be68e2b913ee9",
+      "rng": "f44fa2712e67cb0e6383686a534d65e793f98db04f2d0b90abc9f56773e513f1"
+    }
+  ],
+  "alpha_zero_mode0_mode3_identical": true,
+  "note": "Matched initialization and initial RNG states verified; identical stochastic inputs throughout divergent trajectories are not assumed."
+}

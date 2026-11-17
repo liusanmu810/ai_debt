@@ -1,0 +1,27 @@
+{
+  "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]",
+  "executable": "python (original executable path redacted)",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "numpy": "2.3.3",
+    "pandas": "2.3.3",
+    "scipy": "1.16.2",
+    "matplotlib": "3.10.6",
+    "numba": "0.63.1"
+  },
+  "cuda_available": true,
+  "nvidia_smi": {
+    "gpu": "NVIDIA GeForce RTX 5060",
+    "driver_version": "610.88",
+    "cuda_umd_version": "13.3",
+    "redaction": "Full runtime snapshot, PCI identifiers, utilization/memory and process listing omitted; CUDA runtime/driver API versions retained separately."
+  },
+  "cuda_runtime": [
+    11,
+    8
+  ],
+  "cuda_driver": [
+    13,
+    3
+  ]
+}

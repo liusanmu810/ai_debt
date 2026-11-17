@@ -1,0 +1,2823 @@
+[
+  {
+    "path": "\u65e0\u6807\u5ea6/results_exp1/experiment_1_raw.csv",
+    "rows": 110,
+    "columns": [
+      "A_env",
+      "run_id",
+      "seed",
+      "grid_size",
+      "num_nodes",
+      "network_type",
+      "scale_free_m",
+      "network_nodes",
+      "network_edges",
+      "network_mean_degree",
+      "network_max_degree",
+      "steps",
+      "steady_window",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "mean_payoff",
+      "std_x_time",
+      "std_a_time",
+      "std_D_time",
+      "std_M_time",
+      "std_payoff_time",
+      "elapsed_seconds"
+    ],
+    "missing_cells": 0,
+    "duplicate_identity_rows": 0,
+    "A_values": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ],
+    "model_values": [],
+    "settings": {
+      "grid_size": [
+        100
+      ],
+      "num_nodes": [
+        10000
+      ],
+      "steps": [
+        10000
+      ],
+      "steady_window": [
+        500
+      ]
+    }
+  },
+  {
+    "path": "\u65e0\u6807\u5ea6/results_exp1_old/experiment_1_raw.csv",
+    "rows": 110,
+    "columns": [
+      "A_env",
+      "run_id",
+      "seed",
+      "grid_size",
+      "network_type",
+      "scale_free_m",
+      "network_nodes",
+      "network_edges",
+      "network_mean_degree",
+      "network_max_degree",
+      "steps",
+      "steady_window",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "mean_payoff",
+      "std_x_time",
+      "std_a_time",
+      "std_D_time",
+      "std_M_time",
+      "std_payoff_time",
+      "elapsed_seconds"
+    ],
+    "missing_cells": 0,
+    "duplicate_identity_rows": 0,
+    "A_values": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ],
+    "model_values": [],
+    "settings": {
+      "grid_size": [
+        100
+      ],
+      "steps": [
+        5000
+      ],
+      "steady_window": [
+        100
+      ]
+    }
+  },
+  {
+    "path": "\u65e0\u6807\u5ea6/results_exp2_scanA/experiment_2_raw.csv",
+    "rows": 440,
+    "columns": [
+      "model",
+      "A_env",
+      "run_id",
+      "seed",
+      "grid_size",
+      "num_nodes",
+      "network_type",
+      "scale_free_m",
+      "network_nodes",
+      "network_edges",
+      "network_mean_degree",
+      "network_max_degree",
+      "steps",
+      "steady_window",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "mean_payoff",
+      "std_x_time",
+      "std_a_time",
+      "std_D_time",
+      "std_M_time",
+      "std_payoff_time",
+      "elapsed_seconds"
+    ],
+    "missing_cells": 0,
+    "duplicate_identity_rows": 0,
+    "A_values": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ],
+    "model_values": [
+      "Payoff-only",
+      "Payoff+Memory",
+      "Payoff+Concentration",
+      "Full Model"
+    ],
+    "settings": {
+      "grid_size": [
+        100
+      ],
+      "num_nodes": [
+        10000
+      ],
+      "steps": [
+        20000
+      ],
+      "steady_window": [
+        500
+      ]
+    }
+  },
+  {
+    "path": "\u65e0\u6807\u5ea6/results_exp2_scanA_old/experiment_2_raw.csv",
+    "rows": 220,
+    "columns": [
+      "model",
+      "A_env",
+      "run_id",
+      "seed",
+      "grid_size",
+      "network_type",
+      "scale_free_m",
+      "network_nodes",
+      "network_edges",
+      "network_mean_degree",
+      "network_max_degree",
+      "steps",
+      "steady_window",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "mean_payoff",
+      "std_x_time",
+      "std_a_time",
+      "std_D_time",
+      "std_M_time",
+      "std_payoff_time",
+      "elapsed_seconds"
+    ],
+    "missing_cells": 0,
+    "duplicate_identity_rows": 0,
+    "A_values": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ],
+    "model_values": [
+      "Payoff-only",
+      "Payoff+Memory",
+      "Payoff+Concentration",
+      "Full Model"
+    ],
+    "settings": {
+      "grid_size": [
+        50
+      ],
+      "steps": [
+        20000
+      ],
+      "steady_window": [
+        500
+      ]
+    }
+  },
+  {
+    "path": "\u65e0\u6807\u5ea6/results_qa_public_good_validation_scalefree/qa_public_good_scalefree_raw.csv",
+    "rows": 660,
+    "columns": [
+      "model_variant",
+      "qa_sharing_eta",
+      "qa_sharing_label",
+      "A_env",
+      "seed",
+      "num_nodes",
+      "scale_free_m",
+      "mean_degree",
+      "max_degree",
+      "steps",
+      "tail_window",
+      "sample_every",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "mean_payoff",
+      "sd_x_tail",
+      "sd_a_tail",
+      "sd_D_tail",
+      "sd_M_tail"
+    ],
+    "missing_cells": 0,
+    "duplicate_identity_rows": 660,
+    "A_values": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ],
+    "model_values": [],
+    "settings": {
+      "num_nodes": [
+        10000
+      ],
+      "steps": [
+        10000
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp1/experiment_1_raw.csv",
+    "rows": 110,
+    "columns": [
+      "A_env",
+      "run_id",
+      "seed",
+      "grid_size",
+      "steps",
+      "steady_window",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "mean_payoff",
+      "std_x_time",
+      "std_a_time",
+      "std_D_time",
+      "std_M_time",
+      "std_payoff_time",
+      "elapsed_seconds"
+    ],
+    "missing_cells": 0,
+    "duplicate_identity_rows": 0,
+    "A_values": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ],
+    "model_values": [],
+    "settings": {
+      "grid_size": [
+        100
+      ],
+      "steps": [
+        10000
+      ],
+      "steady_window": [
+        500
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp1_fixed_memory_lambda0p34/experiment_1_raw.csv",
+    "rows": 160,
+    "columns": [
+      "A_env",
+      "run_id",
+      "seed",
+      "grid_size",
+      "steps",
+      "steady_window",
+      "r_public",
+      "w_payoff",
+      "w_memory",
+      "alpha_conc",
+      "lambda_0",
+      "lambda_A",
+      "lambda_M",
+      "init_D_max",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "mean_payoff",
+      "std_x_time",
+      "std_a_time",
+      "std_D_time",
+      "std_M_time",
+      "std_payoff_time",
+      "tail_drift_x",
+      "tail_drift_a",
+      "tail_drift_D",
+      "tail_drift_M",
+      "tail_drift_payoff",
+      "elapsed_seconds",
+      "target_runs",
+      "is_transition_point",
+      "memory_update_mode"
+    ],
+    "missing_cells": 0,
+    "duplicate_identity_rows": 0,
+    "A_values": [
+      0.0,
+      0.1,
+      0.15,
+      0.175,
+      0.2,
+      0.225,
+      0.25,
+      0.275,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ],
+    "model_values": [],
+    "settings": {
+      "grid_size": [
+        100
+      ],
+      "steps": [
+        50000
+      ],
+      "steady_window": [
+        500
+      ],
+      "w_payoff": [
+        0.88
+      ],
+      "w_memory": [
+        0.12
+      ],
+      "alpha_conc": [
+        0.18
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp1_refined/experiment_1_raw.csv",
+    "rows": 300,
+    "columns": [
+      "A_env",
+      "run_id",
+      "seed",
+      "grid_size",
+      "steps",
+      "steady_window",
+      "r_public",
+      "w_payoff",
+      "w_memory",
+      "alpha_conc",
+      "memory_gate_strength",
+      "init_D_max",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "mean_payoff",
+      "std_x_time",
+      "std_a_time",
+      "std_D_time",
+      "std_M_time",
+      "std_payoff_time",
+      "tail_drift_x",
+      "tail_drift_a",
+      "tail_drift_D",
+      "tail_drift_M",
+      "tail_drift_payoff",
+      "elapsed_seconds",
+      "target_runs",
+      "is_transition_point"
+    ],
+    "missing_cells": 0,
+    "duplicate_identity_rows": 0,
+    "A_values": [
+      0.0,
+      0.1,
+      0.15,
+      0.175,
+      0.2,
+      0.225,
+      0.25,
+      0.275,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ],
+    "model_values": [],
+    "settings": {
+      "grid_size": [
+        100
+      ],
+      "steps": [
+        10000
+      ],
+      "steady_window": [
+        500
+      ],
+      "w_payoff": [
+        0.88
+      ],
+      "w_memory": [
+        0.12
+      ],
+      "alpha_conc": [
+        0.18
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp1_refined_concentration_gate/experiment_1_raw.csv",
+    "rows": 160,
+    "columns": [
+      "A_env",
+      "run_id",
+      "seed",
+      "grid_size",
+      "steps",
+      "steady_window",
+      "r_public",
+      "w_payoff",
+      "w_memory",
+      "alpha_conc",
+      "init_D_max",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "mean_payoff",
+      "std_x_time",
+      "std_a_time",
+      "std_D_time",
+      "std_M_time",
+      "std_payoff_time",
+      "tail_drift_x",
+      "tail_drift_a",
+      "tail_drift_D",
+      "tail_drift_M",
+      "tail_drift_payoff",
+      "elapsed_seconds",
+      "target_runs",
+      "is_transition_point"
+    ],
+    "missing_cells": 0,
+    "duplicate_identity_rows": 0,
+    "A_values": [
+      0.0,
+      0.1,
+      0.15,
+      0.175,
+      0.2,
+      0.225,
+      0.25,
+      0.275,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ],
+    "model_values": [],
+    "settings": {
+      "grid_size": [
+        100
+      ],
+      "steps": [
+        50000
+      ],
+      "steady_window": [
+        500
+      ],
+      "w_payoff": [
+        0.88
+      ],
+      "w_memory": [
+        0.12
+      ],
+      "alpha_conc": [
+        0.18
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp1_refined_no_gate/experiment_1_raw.csv",
+    "rows": 160,
+    "columns": [
+      "A_env",
+      "run_id",
+      "seed",
+      "grid_size",
+      "steps",
+      "steady_window",
+      "r_public",
+      "w_payoff",
+      "w_memory",
+      "alpha_conc",
+      "init_D_max",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "mean_payoff",
+      "std_x_time",
+      "std_a_time",
+      "std_D_time",
+      "std_M_time",
+      "std_payoff_time",
+      "tail_drift_x",
+      "tail_drift_a",
+      "tail_drift_D",
+      "tail_drift_M",
+      "tail_drift_payoff",
+      "elapsed_seconds",
+      "target_runs",
+      "is_transition_point"
+    ],
+    "missing_cells": 0,
+    "duplicate_identity_rows": 0,
+    "A_values": [
+      0.0,
+      0.1,
+      0.15,
+      0.175,
+      0.2,
+      0.225,
+      0.25,
+      0.275,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ],
+    "model_values": [],
+    "settings": {
+      "grid_size": [
+        100
+      ],
+      "steps": [
+        10000
+      ],
+      "steady_window": [
+        500
+      ],
+      "w_payoff": [
+        0.88
+      ],
+      "w_memory": [
+        0.12
+      ],
+      "alpha_conc": [
+        0.18
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp2b_screening_function_ablation/screening_function_ablation_raw.csv",
+    "rows": 560,
+    "columns": [
+      "gate",
+      "screening_mode",
+      "A_env",
+      "alpha_conc",
+      "run_id",
+      "seed",
+      "grid_size",
+      "steps",
+      "steady_window",
+      "elapsed_s",
+      "mean_a",
+      "mean_x",
+      "mean_D",
+      "mean_M",
+      "mean_payoff",
+      "mean_rho",
+      "mean_rho_D",
+      "mean_gate_multiplier",
+      "fraction_rho_ge_0_9",
+      "corr_D_rho_D"
+    ],
+    "missing_cells": 241,
+    "duplicate_identity_rows": 540,
+    "A_values": [
+      0.8,
+      1.0
+    ],
+    "model_values": [],
+    "settings": {
+      "grid_size": [
+        100
+      ],
+      "steps": [
+        10000
+      ],
+      "steady_window": [
+        500
+      ],
+      "screening_mode": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "alpha_conc": [
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.18,
+        0.2,
+        0.25,
+        0.3,
+        0.4,
+        0.5
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp2_five_group_with_fermi/experiment_2_raw.csv",
+    "rows": 550,
+    "columns": [
+      "model",
+      "A_env",
+      "run_id",
+      "seed",
+      "grid_size",
+      "steps",
+      "steady_window",
+      "w_payoff",
+      "w_memory",
+      "alpha_conc",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "mean_payoff",
+      "std_x_time",
+      "std_a_time",
+      "std_D_time",
+      "std_M_time",
+      "std_payoff_time",
+      "elapsed_seconds",
+      "selection_rule",
+      "fermi_K"
+    ],
+    "missing_cells": 880,
+    "duplicate_identity_rows": 0,
+    "A_values": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ],
+    "model_values": [
+      "Payoff-only",
+      "Payoff+MemoryAffinity",
+      "Payoff+ConcentrationGate",
+      "Full Model",
+      "Payoff-Fermi"
+    ],
+    "settings": {
+      "grid_size": [
+        100
+      ],
+      "steps": [
+        50000
+      ],
+      "steady_window": [
+        500
+      ],
+      "w_payoff": [
+        1.0,
+        0.88
+      ],
+      "w_memory": [
+        0.0,
+        0.12
+      ],
+      "alpha_conc": [
+        0.0,
+        0.18
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp2_four_group_concentration_gate/experiment_2_raw.csv",
+    "rows": 440,
+    "columns": [
+      "model",
+      "A_env",
+      "run_id",
+      "seed",
+      "grid_size",
+      "steps",
+      "steady_window",
+      "w_payoff",
+      "w_memory",
+      "alpha_conc",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "mean_payoff",
+      "std_x_time",
+      "std_a_time",
+      "std_D_time",
+      "std_M_time",
+      "std_payoff_time",
+      "elapsed_seconds"
+    ],
+    "missing_cells": 0,
+    "duplicate_identity_rows": 0,
+    "A_values": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ],
+    "model_values": [
+      "Payoff-only",
+      "Payoff+MemoryAffinity",
+      "Payoff+ConcentrationGate",
+      "Full Model"
+    ],
+    "settings": {
+      "grid_size": [
+        100
+      ],
+      "steps": [
+        50000
+      ],
+      "steady_window": [
+        500
+      ],
+      "w_payoff": [
+        1.0,
+        0.88
+      ],
+      "w_memory": [
+        0.0,
+        0.12
+      ],
+      "alpha_conc": [
+        0.0,
+        0.18
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp2_four_group_no_gate/experiment_2_raw.csv",
+    "rows": 440,
+    "columns": [
+      "model",
+      "A_env",
+      "run_id",
+      "seed",
+      "grid_size",
+      "steps",
+      "steady_window",
+      "w_payoff",
+      "w_memory",
+      "alpha_conc",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "mean_payoff",
+      "std_x_time",
+      "std_a_time",
+      "std_D_time",
+      "std_M_time",
+      "std_payoff_time",
+      "elapsed_seconds"
+    ],
+    "missing_cells": 0,
+    "duplicate_identity_rows": 0,
+    "A_values": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ],
+    "model_values": [
+      "Payoff-only",
+      "Payoff+MemoryAffinity",
+      "Payoff+ConcentrationDebt",
+      "Full Model"
+    ],
+    "settings": {
+      "grid_size": [
+        100
+      ],
+      "steps": [
+        20000
+      ],
+      "steady_window": [
+        500
+      ],
+      "w_payoff": [
+        1.0,
+        0.88
+      ],
+      "w_memory": [
+        0.0,
+        0.12
+      ],
+      "alpha_conc": [
+        0.0,
+        0.18
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp2_scanA/experiment_2_raw.csv",
+    "rows": 440,
+    "columns": [
+      "model",
+      "A_env",
+      "run_id",
+      "seed",
+      "grid_size",
+      "steps",
+      "steady_window",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "mean_payoff",
+      "std_x_time",
+      "std_a_time",
+      "std_D_time",
+      "std_M_time",
+      "std_payoff_time",
+      "elapsed_seconds"
+    ],
+    "missing_cells": 0,
+    "duplicate_identity_rows": 0,
+    "A_values": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ],
+    "model_values": [
+      "Payoff-only",
+      "Payoff+Memory",
+      "Payoff+Concentration",
+      "Full Model"
+    ],
+    "settings": {
+      "grid_size": [
+        100
+      ],
+      "steps": [
+        20000
+      ],
+      "steady_window": [
+        500
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp2_six_group/experiment_2_raw.csv",
+    "rows": 660,
+    "columns": [
+      "model",
+      "A_env",
+      "run_id",
+      "seed",
+      "grid_size",
+      "steps",
+      "steady_window",
+      "w_payoff",
+      "w_memory",
+      "alpha_conc",
+      "memory_gate_strength",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "mean_payoff",
+      "std_x_time",
+      "std_a_time",
+      "std_D_time",
+      "std_M_time",
+      "std_payoff_time",
+      "elapsed_seconds"
+    ],
+    "missing_cells": 0,
+    "duplicate_identity_rows": 0,
+    "A_values": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ],
+    "model_values": [
+      "Payoff-only",
+      "Payoff+MemoryAffinity",
+      "Payoff+ConcentrationDebt",
+      "Payoff+GatedConcentration",
+      "Memory+ConcentrationDebt",
+      "Full Model"
+    ],
+    "settings": {
+      "grid_size": [
+        100
+      ],
+      "steps": [
+        20000
+      ],
+      "steady_window": [
+        500
+      ],
+      "w_payoff": [
+        1.0,
+        0.88
+      ],
+      "w_memory": [
+        0.0,
+        0.12
+      ],
+      "alpha_conc": [
+        0.0,
+        0.18
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp4_compact/experiment_4_compact_raw.csv",
+    "rows": 620,
+    "columns": [
+      "experiment",
+      "condition_id",
+      "A_env",
+      "parameter",
+      "level",
+      "parameter_value",
+      "interaction",
+      "moderator",
+      "moderator_value",
+      "run_id",
+      "run_signature",
+      "seed_base",
+      "grid_size",
+      "steps",
+      "steady_window",
+      "sample_interval",
+      "mean_a",
+      "mean_x",
+      "mean_D",
+      "num_samples",
+      "elapsed_seconds",
+      "seed"
+    ],
+    "missing_cells": 1150,
+    "duplicate_identity_rows": 620,
+    "A_values": [
+      0.2,
+      0.8
+    ],
+    "model_values": [],
+    "settings": {
+      "grid_size": [
+        50,
+        100
+      ],
+      "steps": [
+        5000,
+        10000
+      ],
+      "steady_window": [
+        500,
+        1000
+      ],
+      "sample_interval": [
+        10
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp4_phase_10x10/experiment_4_phase_10x10_raw.csv",
+    "rows": 3000,
+    "columns": [
+      "scan",
+      "x_name",
+      "y_name",
+      "i_x",
+      "i_y",
+      "x_value",
+      "y_value",
+      "A_env",
+      "alpha_conc",
+      "w_memory",
+      "w_payoff",
+      "r_public",
+      "memory_gate_strength",
+      "run_id",
+      "seed",
+      "grid_size",
+      "steps",
+      "steady_window",
+      "sample_interval",
+      "num_samples",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "std_x_time",
+      "std_a_time",
+      "std_D_time",
+      "std_M_time",
+      "tail_drift_x",
+      "tail_drift_a",
+      "tail_drift_D",
+      "tail_drift_M",
+      "elapsed_seconds"
+    ],
+    "missing_cells": 0,
+    "duplicate_identity_rows": 3000,
+    "A_values": [
+      0.0,
+      0.1111111111,
+      0.2222222222,
+      0.3333333333,
+      0.4444444444,
+      0.5555555556,
+      0.6666666667,
+      0.7777777778,
+      0.8888888889,
+      1.0
+    ],
+    "model_values": [],
+    "settings": {
+      "grid_size": [
+        100
+      ],
+      "steps": [
+        10000
+      ],
+      "steady_window": [
+        500
+      ],
+      "sample_interval": [
+        10
+      ],
+      "w_payoff": [
+        0.88,
+        1.0,
+        0.9444444444,
+        0.8888888889,
+        0.8333333333,
+        0.7777777778,
+        0.7222222222,
+        0.6666666667,
+        0.6111111111,
+        0.5555555556,
+        0.5
+      ],
+      "w_memory": [
+        0.12,
+        0.0,
+        0.05555555556,
+        0.1111111111,
+        0.1666666667,
+        0.2222222222,
+        0.2777777778,
+        0.3333333333,
+        0.3888888889,
+        0.4444444444,
+        0.5
+      ],
+      "alpha_conc": [
+        0.0,
+        0.05555555556,
+        0.1111111111,
+        0.1666666667,
+        0.2222222222,
+        0.2777777778,
+        0.3333333333,
+        0.3888888889,
+        0.4444444444,
+        0.5,
+        0.18
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp4_phase_A0p1_param0p05/experiment_4_phase_A0p1_param0p05_raw.csv",
+    "rows": 3630,
+    "columns": [
+      "scan",
+      "x_name",
+      "y_name",
+      "i_x",
+      "i_y",
+      "x_value",
+      "y_value",
+      "A_env",
+      "alpha_conc",
+      "w_memory",
+      "w_payoff",
+      "r_public",
+      "memory_gate_strength",
+      "run_id",
+      "seed",
+      "grid_size",
+      "steps",
+      "steady_window",
+      "sample_interval",
+      "num_samples",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "std_x_time",
+      "std_a_time",
+      "std_D_time",
+      "std_M_time",
+      "tail_drift_x",
+      "tail_drift_a",
+      "tail_drift_D",
+      "tail_drift_M",
+      "elapsed_seconds"
+    ],
+    "missing_cells": 0,
+    "duplicate_identity_rows": 3630,
+    "A_values": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ],
+    "model_values": [],
+    "settings": {
+      "grid_size": [
+        100
+      ],
+      "steps": [
+        10000
+      ],
+      "steady_window": [
+        500
+      ],
+      "sample_interval": [
+        10
+      ],
+      "w_payoff": [
+        0.88,
+        1.0,
+        0.95,
+        0.9,
+        0.85,
+        0.8,
+        0.75,
+        0.7,
+        0.65,
+        0.6,
+        0.55,
+        0.5
+      ],
+      "w_memory": [
+        0.12,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.2,
+        0.25,
+        0.3,
+        0.35,
+        0.4,
+        0.45,
+        0.5
+      ],
+      "alpha_conc": [
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.2,
+        0.25,
+        0.3,
+        0.35,
+        0.4,
+        0.45,
+        0.5,
+        0.18
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp4_phase_concentration_gate_A0p1_param0p05/experiment_4_phase_concentration_gate_A0p1_param0p05_raw.csv",
+    "rows": 3630,
+    "columns": [
+      "scan",
+      "x_name",
+      "y_name",
+      "i_x",
+      "i_y",
+      "x_value",
+      "y_value",
+      "A_env",
+      "alpha_conc",
+      "w_memory",
+      "w_payoff",
+      "r_public",
+      "run_id",
+      "seed",
+      "grid_size",
+      "steps",
+      "steady_window",
+      "sample_interval",
+      "num_samples",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "std_x_time",
+      "std_a_time",
+      "std_D_time",
+      "std_M_time",
+      "tail_drift_x",
+      "tail_drift_a",
+      "tail_drift_D",
+      "tail_drift_M",
+      "elapsed_seconds"
+    ],
+    "missing_cells": 0,
+    "duplicate_identity_rows": 3630,
+    "A_values": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ],
+    "model_values": [],
+    "settings": {
+      "grid_size": [
+        100
+      ],
+      "steps": [
+        50000
+      ],
+      "steady_window": [
+        500
+      ],
+      "sample_interval": [
+        10
+      ],
+      "w_payoff": [
+        0.88,
+        1.0,
+        0.95,
+        0.9,
+        0.85,
+        0.8,
+        0.75,
+        0.7,
+        0.65,
+        0.6,
+        0.55,
+        0.5
+      ],
+      "w_memory": [
+        0.12,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.2,
+        0.25,
+        0.3,
+        0.35,
+        0.4,
+        0.45,
+        0.5
+      ],
+      "alpha_conc": [
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.2,
+        0.25,
+        0.3,
+        0.35,
+        0.4,
+        0.45,
+        0.5,
+        0.18
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp4_phase_no_gate_A0p1_param0p05/experiment_4_phase_no_gate_A0p1_param0p05_raw.csv",
+    "rows": 3630,
+    "columns": [
+      "scan",
+      "x_name",
+      "y_name",
+      "i_x",
+      "i_y",
+      "x_value",
+      "y_value",
+      "A_env",
+      "alpha_conc",
+      "w_memory",
+      "w_payoff",
+      "r_public",
+      "run_id",
+      "seed",
+      "grid_size",
+      "steps",
+      "steady_window",
+      "sample_interval",
+      "num_samples",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "std_x_time",
+      "std_a_time",
+      "std_D_time",
+      "std_M_time",
+      "tail_drift_x",
+      "tail_drift_a",
+      "tail_drift_D",
+      "tail_drift_M",
+      "elapsed_seconds"
+    ],
+    "missing_cells": 0,
+    "duplicate_identity_rows": 3630,
+    "A_values": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ],
+    "model_values": [],
+    "settings": {
+      "grid_size": [
+        100
+      ],
+      "steps": [
+        10000
+      ],
+      "steady_window": [
+        500
+      ],
+      "sample_interval": [
+        10
+      ],
+      "w_payoff": [
+        0.88,
+        1.0,
+        0.95,
+        0.9,
+        0.85,
+        0.8,
+        0.75,
+        0.7,
+        0.65,
+        0.6,
+        0.55,
+        0.5
+      ],
+      "w_memory": [
+        0.12,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.2,
+        0.25,
+        0.3,
+        0.35,
+        0.4,
+        0.45,
+        0.5
+      ],
+      "alpha_conc": [
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.2,
+        0.25,
+        0.3,
+        0.35,
+        0.4,
+        0.45,
+        0.5,
+        0.18
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp4_preview_lines/preview_raw.csv",
+    "rows": 209,
+    "columns": [
+      "preview",
+      "x_axis_name",
+      "x_axis_value",
+      "line_name",
+      "line_value",
+      "run_id",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "elapsed_seconds",
+      "seed"
+    ],
+    "missing_cells": 0,
+    "duplicate_identity_rows": 209,
+    "A_values": [],
+    "model_values": [],
+    "settings": {}
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp5b_diversity_alpha_sensitivity/diversity_alpha_outcomes_raw.csv",
+    "rows": 48,
+    "columns": [
+      "alpha_conc",
+      "delta",
+      "layout",
+      "model",
+      "screening_mode",
+      "run_id",
+      "seed",
+      "early_window",
+      "final_lsd",
+      "peak_lsd",
+      "early_peak_lsd",
+      "early_lsd_auc",
+      "lsd_auc",
+      "peak_D",
+      "final_D",
+      "early_debt_auc",
+      "debt_auc",
+      "min_x",
+      "final_x",
+      "final_a",
+      "final_rho",
+      "elapsed_s"
+    ],
+    "missing_cells": 0,
+    "duplicate_identity_rows": 48,
+    "A_values": [],
+    "model_values": [
+      "Debt only",
+      "Interaction"
+    ],
+    "settings": {
+      "screening_mode": [
+        1,
+        3
+      ],
+      "alpha_conc": [
+        0.18,
+        0.3,
+        0.5,
+        0.8
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp5b_diversity_alpha_sensitivity/diversity_alpha_time_series_raw.csv",
+    "rows": 3648,
+    "columns": [
+      "alpha_conc",
+      "delta",
+      "layout",
+      "model",
+      "screening_mode",
+      "A_env",
+      "run_id",
+      "seed",
+      "time",
+      "mean_lsd",
+      "mean_a",
+      "mean_x",
+      "mean_D",
+      "mean_M",
+      "mean_rho",
+      "mean_rho_D"
+    ],
+    "missing_cells": 0,
+    "duplicate_identity_rows": 3648,
+    "A_values": [
+      1
+    ],
+    "model_values": [
+      "Debt only",
+      "Interaction"
+    ],
+    "settings": {
+      "screening_mode": [
+        1,
+        3
+      ],
+      "alpha_conc": [
+        0.18,
+        0.3,
+        0.5,
+        0.8
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp5_concentration_lockin/lockin_difference_in_differences_raw.csv",
+    "rows": 320,
+    "columns": [
+      "risk_fraction",
+      "run_id",
+      "metric",
+      "debt_only_layout_contrast",
+      "exposure_layout_contrast",
+      "did"
+    ],
+    "missing_cells": 0,
+    "duplicate_identity_rows": 320,
+    "A_values": [],
+    "model_values": [],
+    "settings": {}
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp5_concentration_lockin/lockin_outcomes_raw.csv",
+    "rows": 180,
+    "columns": [
+      "risk_fraction",
+      "layout",
+      "model",
+      "alpha_conc",
+      "run_id",
+      "seed",
+      "debt_auc",
+      "exposure_auc",
+      "burden_auc",
+      "lsd_auc",
+      "high_debt_auc",
+      "risky_practice_auc",
+      "concentrated_debt_auc",
+      "largest_high_debt_cluster_auc",
+      "largest_risky_practice_cluster_auc",
+      "early_exposure_auc",
+      "early_largest_high_debt_cluster_auc",
+      "peak_largest_high_debt_cluster",
+      "final_mean_D",
+      "final_exposure",
+      "final_lsd",
+      "final_largest_high_debt_cluster"
+    ],
+    "missing_cells": 0,
+    "duplicate_identity_rows": 180,
+    "A_values": [],
+    "model_values": [
+      "No screening",
+      "Debt only",
+      "Exposure-aware"
+    ],
+    "settings": {
+      "alpha_conc": [
+        0.0,
+        0.3
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp5_concentration_lockin/lockin_time_series_raw.csv",
+    "rows": 15120,
+    "columns": [
+      "risk_fraction",
+      "layout",
+      "model",
+      "alpha_conc",
+      "run_id",
+      "seed",
+      "time",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "mean_rho",
+      "mean_lsd",
+      "common_mode_exposure",
+      "governance_burden",
+      "high_debt_prevalence",
+      "risky_practice_prevalence",
+      "concentrated_debt_prevalence",
+      "largest_high_debt_cluster",
+      "largest_risky_practice_cluster"
+    ],
+    "missing_cells": 0,
+    "duplicate_identity_rows": 15120,
+    "A_values": [],
+    "model_values": [
+      "No screening",
+      "Debt only",
+      "Exposure-aware"
+    ],
+    "settings": {
+      "alpha_conc": [
+        0.0,
+        0.3
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp5_local_strategy_diversity/diversity_outcomes_raw.csv",
+    "rows": 60,
+    "columns": [
+      "layout",
+      "model",
+      "run_id",
+      "seed",
+      "final_lsd",
+      "lsd_auc",
+      "peak_D",
+      "final_D",
+      "debt_auc",
+      "min_x",
+      "final_x",
+      "final_a",
+      "elapsed_s"
+    ],
+    "missing_cells": 0,
+    "duplicate_identity_rows": 60,
+    "A_values": [],
+    "model_values": [
+      "No screening",
+      "Debt only",
+      "Interaction"
+    ],
+    "settings": {}
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp5_local_strategy_diversity/diversity_time_series_raw.csv",
+    "rows": 6360,
+    "columns": [
+      "layout",
+      "model",
+      "screening_mode",
+      "alpha_conc",
+      "A_env",
+      "run_id",
+      "seed",
+      "time",
+      "mean_lsd",
+      "mean_a",
+      "mean_x",
+      "mean_D",
+      "mean_M",
+      "mean_rho",
+      "mean_rho_D"
+    ],
+    "missing_cells": 0,
+    "duplicate_identity_rows": 6360,
+    "A_values": [
+      1
+    ],
+    "model_values": [
+      "No screening",
+      "Debt only",
+      "Interaction"
+    ],
+    "settings": {
+      "screening_mode": [
+        0,
+        1,
+        3
+      ],
+      "alpha_conc": [
+        0.0,
+        0.18
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp5_local_strategy_diversity_alpha030/diversity_outcomes_raw.csv",
+    "rows": 60,
+    "columns": [
+      "layout",
+      "model",
+      "run_id",
+      "seed",
+      "final_lsd",
+      "lsd_auc",
+      "peak_D",
+      "final_D",
+      "debt_auc",
+      "min_x",
+      "final_x",
+      "final_a",
+      "elapsed_s"
+    ],
+    "missing_cells": 0,
+    "duplicate_identity_rows": 60,
+    "A_values": [],
+    "model_values": [
+      "No screening",
+      "Debt only",
+      "Interaction"
+    ],
+    "settings": {}
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp5_local_strategy_diversity_alpha030/diversity_time_series_raw.csv",
+    "rows": 6360,
+    "columns": [
+      "layout",
+      "model",
+      "screening_mode",
+      "alpha_conc",
+      "A_env",
+      "run_id",
+      "seed",
+      "time",
+      "mean_lsd",
+      "mean_a",
+      "mean_x",
+      "mean_D",
+      "mean_M",
+      "mean_rho",
+      "mean_rho_D"
+    ],
+    "missing_cells": 0,
+    "duplicate_identity_rows": 6360,
+    "A_values": [
+      1
+    ],
+    "model_values": [
+      "No screening",
+      "Debt only",
+      "Interaction"
+    ],
+    "settings": {
+      "screening_mode": [
+        0,
+        1,
+        3
+      ],
+      "alpha_conc": [
+        0.0,
+        0.3
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp5_targeted_governance_efficiency/governance_outcomes_raw.csv",
+    "rows": 140,
+    "columns": [
+      "layout",
+      "model",
+      "screening_mode",
+      "alpha_conc",
+      "run_id",
+      "seed",
+      "burden_auc",
+      "debt_auc",
+      "outside_debt_auc",
+      "risk_practice_auc",
+      "outside_risk_practice_auc",
+      "final_D",
+      "final_outside_D",
+      "peak_outside_D",
+      "final_x",
+      "final_a",
+      "final_lsd",
+      "elapsed_s"
+    ],
+    "missing_cells": 0,
+    "duplicate_identity_rows": 140,
+    "A_values": [],
+    "model_values": [
+      "No screening",
+      "Debt only",
+      "Exposure-aware"
+    ],
+    "settings": {
+      "screening_mode": [
+        0,
+        1,
+        3
+      ],
+      "alpha_conc": [
+        0.0,
+        0.18,
+        0.3,
+        0.5
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp5_targeted_governance_efficiency/governance_time_series_raw.csv",
+    "rows": 14840,
+    "columns": [
+      "layout",
+      "model",
+      "screening_mode",
+      "alpha_conc",
+      "A_env",
+      "run_id",
+      "seed",
+      "time",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "mean_lsd",
+      "mean_rho",
+      "mean_risk_practice",
+      "inside_D",
+      "outside_D",
+      "outside_risk_practice",
+      "screening_burden",
+      "counterfactual_D_burden",
+      "counterfactual_rhoD_burden"
+    ],
+    "missing_cells": 0,
+    "duplicate_identity_rows": 14840,
+    "A_values": [
+      1
+    ],
+    "model_values": [
+      "No screening",
+      "Debt only",
+      "Exposure-aware"
+    ],
+    "settings": {
+      "screening_mode": [
+        0,
+        1,
+        3
+      ],
+      "alpha_conc": [
+        0.0,
+        0.18,
+        0.3,
+        0.5
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_qa_public_good_validation/qa_public_good_raw.csv",
+    "rows": 660,
+    "columns": [
+      "model_variant",
+      "qa_sharing_eta",
+      "qa_sharing_label",
+      "A_env",
+      "seed",
+      "steps",
+      "tail_window",
+      "sample_every",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "mean_payoff",
+      "sd_x_tail",
+      "sd_a_tail",
+      "sd_D_tail",
+      "sd_M_tail"
+    ],
+    "missing_cells": 0,
+    "duplicate_identity_rows": 660,
+    "A_values": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ],
+    "model_values": [],
+    "settings": {
+      "steps": [
+        10000
+      ]
+    }
+  },
+  {
+    "path": "topology_robustness/results_exp2_scale_free/experiment_2_scale_free_raw.csv",
+    "rows": 660,
+    "columns": [
+      "topology",
+      "model",
+      "A_env",
+      "run_id",
+      "seed",
+      "num_nodes",
+      "steps",
+      "steady_window",
+      "sample_interval",
+      "sample_count",
+      "w_payoff",
+      "w_memory",
+      "alpha_conc",
+      "memory_gate_strength",
+      "elapsed_seconds",
+      "network_type",
+      "network_scale_free_m",
+      "network_nodes",
+      "network_edges",
+      "network_mean_degree",
+      "network_min_degree",
+      "network_max_degree",
+      "mean_x",
+      "std_x_time",
+      "tail_drift_x",
+      "mean_a",
+      "std_a_time",
+      "tail_drift_a",
+      "mean_D",
+      "std_D_time",
+      "tail_drift_D",
+      "mean_M",
+      "std_M_time",
+      "tail_drift_M"
+    ],
+    "missing_cells": 0,
+    "duplicate_identity_rows": 0,
+    "A_values": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ],
+    "model_values": [
+      "Payoff-only",
+      "Payoff+MemoryAffinity",
+      "Payoff+ConcentrationDebt",
+      "Payoff+GatedConcentration",
+      "Memory+ConcentrationDebt",
+      "Full Model"
+    ],
+    "settings": {
+      "num_nodes": [
+        10000
+      ],
+      "steps": [
+        20000
+      ],
+      "steady_window": [
+        500
+      ],
+      "sample_interval": [
+        10
+      ],
+      "w_payoff": [
+        1.0,
+        0.88
+      ],
+      "w_memory": [
+        0.0,
+        0.12
+      ],
+      "alpha_conc": [
+        0.0,
+        0.18
+      ]
+    }
+  },
+  {
+    "path": "topology_robustness/results_exp2_scale_free_concentration_gate/experiment_2_scale_free_raw.csv",
+    "rows": 440,
+    "columns": [
+      "topology",
+      "model",
+      "A_env",
+      "run_id",
+      "seed",
+      "num_nodes",
+      "steps",
+      "steady_window",
+      "sample_interval",
+      "sample_count",
+      "w_payoff",
+      "w_memory",
+      "alpha_conc",
+      "memory_affinity_enabled",
+      "concentration_gate_enabled",
+      "regulation_formula",
+      "elapsed_seconds",
+      "network_type",
+      "network_scale_free_m",
+      "network_nodes",
+      "network_edges",
+      "network_mean_degree",
+      "network_min_degree",
+      "network_max_degree",
+      "mean_x",
+      "std_x_time",
+      "tail_drift_x",
+      "mean_a",
+      "std_a_time",
+      "tail_drift_a",
+      "mean_D",
+      "std_D_time",
+      "tail_drift_D",
+      "mean_M",
+      "std_M_time",
+      "tail_drift_M"
+    ],
+    "missing_cells": 0,
+    "duplicate_identity_rows": 0,
+    "A_values": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ],
+    "model_values": [
+      "Payoff-only",
+      "Payoff+MemoryAffinity",
+      "Payoff+ConcentrationGate",
+      "Full Model"
+    ],
+    "settings": {
+      "num_nodes": [
+        10000
+      ],
+      "steps": [
+        50000
+      ],
+      "steady_window": [
+        500
+      ],
+      "sample_interval": [
+        10
+      ],
+      "w_payoff": [
+        1.0,
+        0.88
+      ],
+      "w_memory": [
+        0.0,
+        0.12
+      ],
+      "alpha_conc": [
+        0.0,
+        0.18
+      ]
+    }
+  },
+  {
+    "path": "topology_robustness/results_exp2_scale_free_no_gate/experiment_2_scale_free_raw.csv",
+    "rows": 440,
+    "columns": [
+      "topology",
+      "model",
+      "A_env",
+      "run_id",
+      "seed",
+      "num_nodes",
+      "steps",
+      "steady_window",
+      "sample_interval",
+      "sample_count",
+      "w_payoff",
+      "w_memory",
+      "alpha_conc",
+      "elapsed_seconds",
+      "network_type",
+      "network_scale_free_m",
+      "network_nodes",
+      "network_edges",
+      "network_mean_degree",
+      "network_min_degree",
+      "network_max_degree",
+      "mean_x",
+      "std_x_time",
+      "tail_drift_x",
+      "mean_a",
+      "std_a_time",
+      "tail_drift_a",
+      "mean_D",
+      "std_D_time",
+      "tail_drift_D",
+      "mean_M",
+      "std_M_time",
+      "tail_drift_M"
+    ],
+    "missing_cells": 0,
+    "duplicate_identity_rows": 0,
+    "A_values": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ],
+    "model_values": [
+      "Payoff-only",
+      "Payoff+MemoryAffinity",
+      "Payoff+ConcentrationDebt",
+      "Full Model"
+    ],
+    "settings": {
+      "num_nodes": [
+        10000
+      ],
+      "steps": [
+        20000
+      ],
+      "steady_window": [
+        500
+      ],
+      "sample_interval": [
+        10
+      ],
+      "w_payoff": [
+        1.0,
+        0.88
+      ],
+      "w_memory": [
+        0.0,
+        0.12
+      ],
+      "alpha_conc": [
+        0.0,
+        0.18
+      ]
+    }
+  },
+  {
+    "path": "topology_robustness/results_exp2_small_world/experiment_2_small_world_raw.csv",
+    "rows": 660,
+    "columns": [
+      "topology",
+      "model",
+      "A_env",
+      "run_id",
+      "seed",
+      "num_nodes",
+      "steps",
+      "steady_window",
+      "sample_interval",
+      "sample_count",
+      "w_payoff",
+      "w_memory",
+      "alpha_conc",
+      "memory_gate_strength",
+      "elapsed_seconds",
+      "network_type",
+      "network_small_world_k",
+      "network_small_world_p",
+      "network_nodes",
+      "network_edges",
+      "network_mean_degree",
+      "network_min_degree",
+      "network_max_degree",
+      "mean_x",
+      "std_x_time",
+      "tail_drift_x",
+      "mean_a",
+      "std_a_time",
+      "tail_drift_a",
+      "mean_D",
+      "std_D_time",
+      "tail_drift_D",
+      "mean_M",
+      "std_M_time",
+      "tail_drift_M"
+    ],
+    "missing_cells": 0,
+    "duplicate_identity_rows": 0,
+    "A_values": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ],
+    "model_values": [
+      "Payoff-only",
+      "Payoff+MemoryAffinity",
+      "Payoff+ConcentrationDebt",
+      "Payoff+GatedConcentration",
+      "Memory+ConcentrationDebt",
+      "Full Model"
+    ],
+    "settings": {
+      "num_nodes": [
+        10000
+      ],
+      "steps": [
+        20000
+      ],
+      "steady_window": [
+        500
+      ],
+      "sample_interval": [
+        10
+      ],
+      "w_payoff": [
+        1.0,
+        0.88
+      ],
+      "w_memory": [
+        0.0,
+        0.12
+      ],
+      "alpha_conc": [
+        0.0,
+        0.18
+      ]
+    }
+  },
+  {
+    "path": "topology_robustness/results_exp2_small_world_concentration_gate/experiment_2_small_world_raw.csv",
+    "rows": 440,
+    "columns": [
+      "topology",
+      "model",
+      "A_env",
+      "run_id",
+      "seed",
+      "num_nodes",
+      "steps",
+      "steady_window",
+      "sample_interval",
+      "sample_count",
+      "w_payoff",
+      "w_memory",
+      "alpha_conc",
+      "memory_affinity_enabled",
+      "concentration_gate_enabled",
+      "regulation_formula",
+      "elapsed_seconds",
+      "network_type",
+      "network_small_world_k",
+      "network_small_world_p",
+      "network_nodes",
+      "network_edges",
+      "network_mean_degree",
+      "network_min_degree",
+      "network_max_degree",
+      "mean_x",
+      "std_x_time",
+      "tail_drift_x",
+      "mean_a",
+      "std_a_time",
+      "tail_drift_a",
+      "mean_D",
+      "std_D_time",
+      "tail_drift_D",
+      "mean_M",
+      "std_M_time",
+      "tail_drift_M"
+    ],
+    "missing_cells": 0,
+    "duplicate_identity_rows": 0,
+    "A_values": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ],
+    "model_values": [
+      "Payoff-only",
+      "Payoff+MemoryAffinity",
+      "Payoff+ConcentrationGate",
+      "Full Model"
+    ],
+    "settings": {
+      "num_nodes": [
+        10000
+      ],
+      "steps": [
+        50000
+      ],
+      "steady_window": [
+        500
+      ],
+      "sample_interval": [
+        10
+      ],
+      "w_payoff": [
+        1.0,
+        0.88
+      ],
+      "w_memory": [
+        0.0,
+        0.12
+      ],
+      "alpha_conc": [
+        0.0,
+        0.18
+      ]
+    }
+  },
+  {
+    "path": "topology_robustness/results_exp2_small_world_no_gate/experiment_2_small_world_raw.csv",
+    "rows": 440,
+    "columns": [
+      "topology",
+      "model",
+      "A_env",
+      "run_id",
+      "seed",
+      "num_nodes",
+      "steps",
+      "steady_window",
+      "sample_interval",
+      "sample_count",
+      "w_payoff",
+      "w_memory",
+      "alpha_conc",
+      "elapsed_seconds",
+      "network_type",
+      "network_small_world_k",
+      "network_small_world_p",
+      "network_nodes",
+      "network_edges",
+      "network_mean_degree",
+      "network_min_degree",
+      "network_max_degree",
+      "mean_x",
+      "std_x_time",
+      "tail_drift_x",
+      "mean_a",
+      "std_a_time",
+      "tail_drift_a",
+      "mean_D",
+      "std_D_time",
+      "tail_drift_D",
+      "mean_M",
+      "std_M_time",
+      "tail_drift_M"
+    ],
+    "missing_cells": 0,
+    "duplicate_identity_rows": 0,
+    "A_values": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ],
+    "model_values": [
+      "Payoff-only",
+      "Payoff+MemoryAffinity",
+      "Payoff+ConcentrationDebt",
+      "Full Model"
+    ],
+    "settings": {
+      "num_nodes": [
+        10000
+      ],
+      "steps": [
+        20000
+      ],
+      "steady_window": [
+        500
+      ],
+      "sample_interval": [
+        10
+      ],
+      "w_payoff": [
+        1.0,
+        0.88
+      ],
+      "w_memory": [
+        0.0,
+        0.12
+      ],
+      "alpha_conc": [
+        0.0,
+        0.18
+      ]
+    }
+  },
+  {
+    "path": "tmp/exp2_fermi_gpu_smoke/experiment_2_raw.csv",
+    "rows": 1,
+    "columns": [
+      "model",
+      "A_env",
+      "run_id",
+      "seed",
+      "grid_size",
+      "steps",
+      "steady_window",
+      "w_payoff",
+      "w_memory",
+      "alpha_conc",
+      "selection_rule",
+      "fermi_K",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "mean_payoff",
+      "std_x_time",
+      "std_a_time",
+      "std_D_time",
+      "std_M_time",
+      "std_payoff_time",
+      "elapsed_seconds"
+    ],
+    "missing_cells": 0,
+    "duplicate_identity_rows": 0,
+    "A_values": [
+      0.0
+    ],
+    "model_values": [
+      "Payoff-Fermi"
+    ],
+    "settings": {
+      "grid_size": [
+        6
+      ],
+      "steps": [
+        3
+      ],
+      "steady_window": [
+        1
+      ],
+      "w_payoff": [
+        1.0
+      ],
+      "w_memory": [
+        0.0
+      ],
+      "alpha_conc": [
+        0.0
+      ]
+    }
+  },
+  {
+    "path": "tmp/exp5_gpu_smoke/governance_outcomes_raw.csv",
+    "rows": 6,
+    "columns": [
+      "layout",
+      "model",
+      "screening_mode",
+      "alpha_conc",
+      "run_id",
+      "seed",
+      "burden_auc",
+      "debt_auc",
+      "outside_debt_auc",
+      "risk_practice_auc",
+      "outside_risk_practice_auc",
+      "final_D",
+      "final_outside_D",
+      "peak_outside_D",
+      "final_x",
+      "final_a",
+      "final_lsd",
+      "elapsed_s"
+    ],
+    "missing_cells": 0,
+    "duplicate_identity_rows": 6,
+    "A_values": [],
+    "model_values": [
+      "No screening",
+      "Debt only",
+      "Exposure-aware"
+    ],
+    "settings": {
+      "screening_mode": [
+        0,
+        1,
+        3
+      ],
+      "alpha_conc": [
+        0.0,
+        0.18
+      ]
+    }
+  },
+  {
+    "path": "tmp/exp5_gpu_smoke/governance_time_series_raw.csv",
+    "rows": 132,
+    "columns": [
+      "layout",
+      "model",
+      "screening_mode",
+      "alpha_conc",
+      "A_env",
+      "run_id",
+      "seed",
+      "time",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "mean_lsd",
+      "mean_rho",
+      "mean_risk_practice",
+      "inside_D",
+      "outside_D",
+      "outside_risk_practice",
+      "screening_burden",
+      "counterfactual_D_burden",
+      "counterfactual_rhoD_burden"
+    ],
+    "missing_cells": 0,
+    "duplicate_identity_rows": 132,
+    "A_values": [
+      1
+    ],
+    "model_values": [
+      "No screening",
+      "Debt only",
+      "Exposure-aware"
+    ],
+    "settings": {
+      "screening_mode": [
+        0,
+        1,
+        3
+      ],
+      "alpha_conc": [
+        0.0,
+        0.18
+      ]
+    }
+  },
+  {
+    "path": "tmp/exp5_lockin_pilot/lockin_difference_in_differences_raw.csv",
+    "rows": 64,
+    "columns": [
+      "risk_fraction",
+      "run_id",
+      "metric",
+      "debt_only_layout_contrast",
+      "exposure_layout_contrast",
+      "did"
+    ],
+    "missing_cells": 0,
+    "duplicate_identity_rows": 64,
+    "A_values": [],
+    "model_values": [],
+    "settings": {}
+  },
+  {
+    "path": "tmp/exp5_lockin_pilot/lockin_outcomes_raw.csv",
+    "rows": 36,
+    "columns": [
+      "risk_fraction",
+      "layout",
+      "model",
+      "alpha_conc",
+      "run_id",
+      "seed",
+      "debt_auc",
+      "exposure_auc",
+      "burden_auc",
+      "lsd_auc",
+      "high_debt_auc",
+      "risky_practice_auc",
+      "concentrated_debt_auc",
+      "largest_high_debt_cluster_auc",
+      "largest_risky_practice_cluster_auc",
+      "early_exposure_auc",
+      "early_largest_high_debt_cluster_auc",
+      "peak_largest_high_debt_cluster",
+      "final_mean_D",
+      "final_exposure",
+      "final_lsd",
+      "final_largest_high_debt_cluster"
+    ],
+    "missing_cells": 0,
+    "duplicate_identity_rows": 36,
+    "A_values": [],
+    "model_values": [
+      "No screening",
+      "Debt only",
+      "Exposure-aware"
+    ],
+    "settings": {
+      "alpha_conc": [
+        0.0,
+        0.3
+      ]
+    }
+  },
+  {
+    "path": "tmp/exp5_lockin_pilot/lockin_time_series_raw.csv",
+    "rows": 2088,
+    "columns": [
+      "risk_fraction",
+      "layout",
+      "model",
+      "alpha_conc",
+      "run_id",
+      "seed",
+      "time",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "mean_rho",
+      "mean_lsd",
+      "common_mode_exposure",
+      "governance_burden",
+      "high_debt_prevalence",
+      "risky_practice_prevalence",
+      "concentrated_debt_prevalence",
+      "largest_high_debt_cluster",
+      "largest_risky_practice_cluster"
+    ],
+    "missing_cells": 0,
+    "duplicate_identity_rows": 2088,
+    "A_values": [],
+    "model_values": [
+      "No screening",
+      "Debt only",
+      "Exposure-aware"
+    ],
+    "settings": {
+      "alpha_conc": [
+        0.0,
+        0.3
+      ]
+    }
+  }
+]

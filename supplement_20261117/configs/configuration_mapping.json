@@ -1,0 +1,6 @@
+{
+  "Payoff-only": "Payoff-only diffusion",
+  "Payoff+MemoryAffinity": "Proxy-coupled diffusion",
+  "Payoff+ConcentrationGate": "Concentration gate",
+  "Full Model": "Full model"
+}

@@ -1,0 +1,9 @@
+{
+  "repository": "liusanmu810/ai_debt",
+  "origin": "https://github.com/liusanmu810/ai_debt.git",
+  "base_branch": "main",
+  "base_commit": "f6412a462830f1de87fd6c7a24eaf1fd761f1991",
+  "base_status": "clean fresh checkout",
+  "merged_files_policy": "Add dated artifact; preserve existing model directories. README, ignore rule and legacy-map clarification only.",
+  "artifact_code_version": "Historical execution SHA256 in new_experiments/formal/code_hashes.json; not replaced by repository HEAD."
+}

@@ -1,0 +1,9 @@
+    dataset                    model  A_env       metric  n  absolute_Q1  absolute_median  absolute_Q3  absolute_max  increasing  decreasing  zero
+small_world              Payoff-only    0.6 tail_drift_D 10     0.005339         0.008951     0.020699      0.036296           5           5     0
+small_world              Payoff-only    0.7 tail_drift_D 10     0.004831         0.011643     0.021949      0.025293           7           3     0
+small_world Payoff+ConcentrationGate    0.7 tail_drift_D 10     0.005613         0.008573     0.017603      0.024356           8           2     0
+small_world    Payoff+MemoryAffinity    0.7 tail_drift_D 10     0.004056         0.005784     0.012688      0.021541           5           5     0
+small_world Payoff+ConcentrationGate    0.6 tail_drift_D 10     0.002736         0.008485     0.011230      0.018010           9           1     0
+small_world              Payoff-only    0.6 tail_drift_x 10     0.002350         0.003180     0.008101      0.014289           4           6     0
+small_world    Payoff+MemoryAffinity    0.6 tail_drift_D 10     0.001567         0.004958     0.006128      0.012837           7           3     0
+small_world              Payoff-only    0.7 tail_drift_x 10     0.001221         0.003387     0.007401      0.010990           3           7     0

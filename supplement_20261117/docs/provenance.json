@@ -1,0 +1,40 @@
+[
+  {
+    "dataset": "core",
+    "source": "source-workspace/\u65b9\u683c\u7f51/results_exp2_four_group_concentration_gate/experiment_2_raw.csv",
+    "archived": "original_data/core/experiment_2_raw.csv",
+    "sha256": "27e35fc2df567e18442e29b60826ee83a1173746abb7daf4cd371ca3587136b9"
+  },
+  {
+    "dataset": "dynamic",
+    "source": "source-workspace/\u65b9\u683c\u7f51/results_exp1_refined_concentration_gate/experiment_1_raw.csv",
+    "archived": "original_data/dynamic/experiment_1_raw.csv",
+    "sha256": "1cbfb8ce3a421cfb607cf1fa47125c9de10491a5d9f9cbae26548f7fbf8c7232"
+  },
+  {
+    "dataset": "fixed",
+    "source": "source-workspace/\u65b9\u683c\u7f51/results_exp1_fixed_memory_lambda0p34/experiment_1_raw.csv",
+    "archived": "original_data/fixed/experiment_1_raw.csv",
+    "sha256": "de79372fcbca886ba0a51d56430c259bcb748b18a58a2b08255c0d1f38f467b7"
+  },
+  {
+    "source": "source-workspace/\u65b9\u683c\u7f51/MODEL.py",
+    "archived": "code/MODEL.py",
+    "sha256": "7e23ff89a8f4ff9e521070ddb590b5ff4f510ee504b8b6c1cb7e88eb56bc5261"
+  },
+  {
+    "source": "source-workspace/\u65b9\u683c\u7f51/Experiment 2 Ablation Memory Concentration.py",
+    "archived": "code/core_driver.py",
+    "sha256": "5fa73e759b61b06114f499a30386ebed71c4f79cbde578adf866979b79b264a8"
+  },
+  {
+    "source": "source-workspace/\u65b9\u683c\u7f51/Experiment 1 Ai Environment Sweep.py",
+    "archived": "code/sweep_driver.py",
+    "sha256": "96c6eabd9a774009268c32c07fc6c5e6bc6d767cc10a8ea4f080cfb4a0b872ec"
+  },
+  {
+    "source": "source-workspace/topology_robustness/experiment2_core.py",
+    "archived": "code/topology_driver_reference.py",
+    "sha256": "f7b97050c7e0faa8f91941111f7d497f84b2b35e604c30ed7ca027a65252cbc6"
+  }
+]

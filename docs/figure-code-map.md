@@ -1,5 +1,8 @@
 # Figure-to-code map
 
+The table below records the original source-upload figure numbering. The final manuscript inserts the gate-form seed figure as Figure 5, so the original Figures 5–10 become Figures 6–11. Use the [final manuscript label-to-data mapping](../supplement_20261117/docs/manuscript_mapping.md) for the archived realization-level results and new gate comparison.
+
+
 | Paper figure | Simulation / analysis source | Saved outputs used by plotting |
 |---|---|---|
 | Fig. 1, environmental response | `lattice/experiment_1_environment_sweep.py` | Per-realization raw CSV and summary CSV; `plot_experiment_1_nature_style.py` redraws saved results |
@@ -23,4 +26,4 @@ The GPU model kernels are copied without scientific changes. Local cleanup renam
 
 Six JSON files are copied from saved experiment metadata. The ablation protocol is documented by the explicit README command, and the three parameter-map protocols remain explicit constants in their generator files. The JSON files are provenance records rather than a new runtime configuration format.
 
-Original raw CSV/NPZ files, manuscript PDFs/TeX, downloaded literature, temporary rendering images, and revision history are outside this initial source-only release.
+The later reproducibility package supplies selected raw realization-level CSVs. Node-level NPZ arrays, manuscript PDFs/TeX, downloaded literature, temporary rendering images and revision history remain outside that package.

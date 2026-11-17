@@ -15,6 +15,10 @@ The model couples continuous AI-use and assurance strategies with persistent tec
 
 The three core model files are `lattice/MODEL.py`, `topology_robustness/scale_free_model.py`, and `topology_robustness/small_world_model.py`.
 
+## Reproducibility package
+
+The versioned [research artifact](supplement_20261117/README.md) contains selected realization-level data, frozen execution sources, CPU analysis scripts, figures and audit records. Start with its CPU-only working-copy instructions; viewing results does not require a GPU. It covers the original four-configuration seed comparison, both Figure 2 update-rule datasets, bounded NG/RG/FG gate comparisons, and selected topology drift diagnostics. It does not archive all inputs for every manuscript figure. See the [current manuscript mapping](supplement_20261117/docs/manuscript_mapping.md). The directory date is an artifact identifier, not a separate manuscript appendix.
+
 ## Environment
 
 Use Python with the packages in `requirements.txt`. Simulations use **Numba CUDA and an NVIDIA GPU**. The parameter-map driver checks for Numba 0.63 or later. Install a CUDA-capable environment appropriate for the GPU before launching simulations. Plotting saved outputs uses NumPy, pandas, SciPy, and Matplotlib and does not require running simulations.
@@ -68,14 +72,16 @@ See each driver's `--help` for additional options and plotting-only mode. Saved 
 ## Reproduction notes
 
 - `configs/` files document saved runs; drivers do not automatically ingest them as universal configuration files.
-- Some saved result-directory names retain `A0.8`; the manuscript temporal and spatial settings are **A = 0.6**, as recorded in their JSON files and commands above.
+- Some saved result-directory names retain `A0.8`; the manuscript temporal and spatial environmental setting is **A = 0.6**. The representative temporal CSV records seed 20261114, whereas its adjacent JSON and the illustrative command above specify 20260514. This conflict remains unresolved; that command is not a verified reconstruction of the plotted temporal trajectory. The new gate comparison does not resolve or replace its seed provenance.
 - The reliability-conditioned gate uses the normalized score **M_prime**, with signal `rho * (1 - M_prime)`. Parameter-output metadata has been clarified to distinguish this from the unnormalized proxy; model calculations are unchanged.
 - Parameter-map smoothing affects display only. Numerical comparisons use unsmoothed values.
 - Current plotting sources include the manuscript's larger heatmap/topology labels and separated spatial colorbar endpoints.
 
 ## Data and manuscript files
 
-This initial upload contains source code and run configurations. It does not bundle the raw CSV/NPZ outputs, manuscript drafts, downloaded papers, or revision history. The figure-to-code mapping identifies the outputs required for plotting. Saved raw outputs can be distributed separately with a versioned research-data archive.
+The original source upload contains simulation code and run configurations. The reproducibility package now adds the selected realization-level CSVs described above; node-level fields, complete trajectories and full parameter-map arrays remain outside this artifact. Manuscript drafts, downloaded papers and revision history are not bundled.
+
+The legacy `upload-manifest.json` records the original source-upload snapshot, not the current repository contents. The new artifact has its own `supplement_20261117/MANIFEST_SHA256.csv`; these manifests have different scopes.
 
 ## License
 

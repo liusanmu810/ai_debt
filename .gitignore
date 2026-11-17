@@ -16,3 +16,7 @@ figures/
 *.out
 *.fls
 *.fdb_latexmk
+
+# Versioned research-artifact previews and vector figures are required inputs.
+!/supplement_20261117/figures/
+!/supplement_20261117/figures/**

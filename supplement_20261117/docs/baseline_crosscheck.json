@@ -1,0 +1,8 @@
+{
+  "dynamic_config_vs_new_baseline_differences": {},
+  "new_only_parameters": {
+    "selection_rule": 0,
+    "fermi_K": 0.1
+  },
+  "constructor_defaults": "Unspecified optional init arrays remain None. Grid and seed explicitly supplied. All listed production/debt/update parameters equal the archived dynamic baseline."
+}

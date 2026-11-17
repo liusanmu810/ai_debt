@@ -1,0 +1,158 @@
+[
+  {
+    "path": "README.md",
+    "original_sha256": "0f3b80405650f437fb8e8e1f16331ec3751ecb192c44379563739d781f0341a9",
+    "public_sha256": "1f4472fe3bceb9e003ee1b5fa5a073d4836808406db893d5937bcd4f8de7ee01",
+    "action": "Public documentation rewrite / explicit result and provenance scope"
+  },
+  {
+    "path": "configs/analysis_settings.json",
+    "original_sha256": "01131839e0b7b83c6a126e36e10e94bb46f455afb20d4bce49ce96e6a433d473",
+    "public_sha256": "f10e136a567ca242abdbb7abbabd70827897f2ca7b7d09f0178a683c114d6aec",
+    "action": "Path redaction, forward-slash aliases and portable ASCII-escaped JSON; scientific fields retained"
+  },
+  {
+    "path": "configs/configuration_mapping.json",
+    "original_sha256": "d20895adbe725d25fe07abdf8d36c23d3b98df86e0c3caa3a7af99c649192026",
+    "public_sha256": "562d6fd9a398cd3816acdd60591c7663d0e1849b2f71fddaee1dbb0bb819c8d4",
+    "action": "Path redaction, forward-slash aliases and portable ASCII-escaped JSON; scientific fields retained"
+  },
+  {
+    "path": "docs/analysis_environment.json",
+    "original_sha256": "fdfd569c3f2510976302a2b3d51d9f44450a83687953d0f40669145f77ac56a7",
+    "public_sha256": "eda75fee37cf1b94610d2fb268a428038f63386ee3a24dc6680bf2677848673d",
+    "action": "Path redaction, forward-slash aliases and portable ASCII-escaped JSON; scientific fields retained"
+  },
+  {
+    "path": "docs/baseline_crosscheck.json",
+    "original_sha256": "90c74f6ecdbe9bc954622d1eaa2e1758c424ccbd37c913d85232d9259e00be0c",
+    "public_sha256": "746e624c6fd8301f6d00bbd5c6ba94d0a6ec9d566945a962ef15dd54ce7c6f1b",
+    "action": "Path redaction, forward-slash aliases and portable ASCII-escaped JSON; scientific fields retained"
+  },
+  {
+    "path": "docs/core_quality_issues.json",
+    "original_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "public_sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+    "action": "Path redaction, forward-slash aliases and portable ASCII-escaped JSON; scientific fields retained"
+  },
+  {
+    "path": "docs/data_audit.md",
+    "original_sha256": "28ac8d709ce82d8b8529cc67ad527b700d1b4e435fda4b153d11aac84ef23457",
+    "public_sha256": "e9b0978092f74f508253b606d30c1b213c4bb0308066769342e5c0d36315daa2",
+    "action": "Public documentation rewrite / explicit result and provenance scope"
+  },
+  {
+    "path": "docs/data_inventory.json",
+    "original_sha256": "30b2d37a599ae983ecf78c0570cf8d2d3e3c3e616a34540cee907a50548e9150",
+    "public_sha256": "0a98c16d376be1e9cce8478686ef807e713dc86f27ed88bdf53ee49ca5835432",
+    "action": "Path redaction, forward-slash aliases and portable ASCII-escaped JSON; scientific fields retained"
+  },
+  {
+    "path": "docs/input_audit_detailed.json",
+    "original_sha256": "9ff630986b6d25b3c7a7cea54ff34b24bff93e54a4154f3ed6b5ec24cd939690",
+    "public_sha256": "00af7cd8e988903af40cacc1d6421ca53eb0997f62c013e1655979b43392bf49",
+    "action": "Path redaction, forward-slash aliases and portable ASCII-escaped JSON; scientific fields retained"
+  },
+  {
+    "path": "docs/local_repository_crosscheck.json",
+    "original_sha256": "00fc77630eeaedb5aafb05b1cfc4023e873ce3b87e07121e85954143efb0cdc4",
+    "public_sha256": "75bb4661b84e86b7e48dd155c4ac826e66491be1f2284d9d1574095a16e8afc5",
+    "action": "Path redaction, forward-slash aliases and portable ASCII-escaped JSON; scientific fields retained"
+  },
+  {
+    "path": "docs/missing_items.md",
+    "original_sha256": "dd876a1200e991119eeddff4c5566f1cae5ac0d6ad640ee895ff2c21fa046aca",
+    "public_sha256": "517eca0950c673f96d45c6962427f707c8b5d896257b4c87a71957d81e3b5035",
+    "action": "Public documentation rewrite / explicit result and provenance scope"
+  },
+  {
+    "path": "docs/provenance.json",
+    "original_sha256": "b9e0a880fb1502b52e385344b35571ee9e3d668163b316adc0e1df57e5f64f57",
+    "public_sha256": "bb3719b8b7a6f8bb54a468984bea0c12aef3aa9ecc80e29d8770c63a67ffabf9",
+    "action": "Path redaction, forward-slash aliases and portable ASCII-escaped JSON; scientific fields retained"
+  },
+  {
+    "path": "docs/publication_checklist.md",
+    "original_sha256": "9fefd42f9c6dc046a9d5fd732d12a2bc564999763a9dc1c8ee862051bdd2b429",
+    "public_sha256": "ba20c006ef2dcdf0837f3f24d3e68941ef488520f63a79fca1533a717886d5a5",
+    "action": "Public documentation rewrite / explicit result and provenance scope"
+  },
+  {
+    "path": "docs/validation.json",
+    "original_sha256": "8ffa59b7e93a7cfd3f655938d631bb84060d7e12f42ba7ca2cd110bbb8e06767",
+    "public_sha256": "800cc1b7c8e0ea18a2d487ba8ac0a5c0137c5f91c3cefeacbfce9a7385ae75ab",
+    "action": "Path redaction, forward-slash aliases and portable ASCII-escaped JSON; scientific fields retained"
+  },
+  {
+    "path": "new_experiments/smoke_log.txt",
+    "original_sha256": "9970749fd2f0dee6cbfd548dbb5636c063ad863b40d3df9af480d57cb3a877fa",
+    "public_sha256": "6308fd6783a5b5d9503c20e07e6d7732648d85f112f1d72a6a396abc0851420b",
+    "action": "Local environment prefix removed from warning paths"
+  },
+  {
+    "path": "original_data/core/experiment_2_figure_config.json",
+    "original_sha256": "561bf137e6ec78875d5307e70f7dc743332a4a841fcbe3fde1f6a8e818915a3b",
+    "public_sha256": "503625bdb00f1f5a4677f636a0285858835c294adebf2ae1d1858e7525a7711b",
+    "action": "Path redaction, forward-slash aliases and portable ASCII-escaped JSON; scientific fields retained"
+  },
+  {
+    "path": "original_data/dynamic/experiment_1_config.json",
+    "original_sha256": "5da10cd76eb687861fe7a8ae9a89696606fbd106babce0fca88cdd57dbe910d6",
+    "public_sha256": "97513df3d92b338f99aba058b51c4a8359b39578893c0d0a8d485faf89618c90",
+    "action": "Path redaction, forward-slash aliases and portable ASCII-escaped JSON; scientific fields retained"
+  },
+  {
+    "path": "original_data/fixed/experiment_1_config.json",
+    "original_sha256": "790c9ebe5d7eeeb5227e70d2f9f147555e06668515d67223442fc7e44eb04adb",
+    "public_sha256": "204310a642a94bf6d650fb2c2053a14f9c47951b2c7b92fabef19ee652822875",
+    "action": "Path redaction, forward-slash aliases and portable ASCII-escaped JSON; scientific fields retained"
+  },
+  {
+    "path": "original_data/scale_free/experiment_2_scale_free_metadata.json",
+    "original_sha256": "4d16f231eee41757c302706e00de63eeb0ae636619c6b5c2aece1f3a2fbe0839",
+    "public_sha256": "8182025145258261a74e8e865e2f64e2cc80771a574da2bae57c17726ca38b7d",
+    "action": "Path redaction, forward-slash aliases and portable ASCII-escaped JSON; scientific fields retained"
+  },
+  {
+    "path": "original_data/small_world/experiment_2_small_world_metadata.json",
+    "original_sha256": "eba8d6173cfce671cca4308ec33b7955d621f87295bf34697afa96403ee6a5b1",
+    "public_sha256": "36ca5f97830cbc456ec759f13e28749c227ebd177c475c767a38fe361de417e4",
+    "action": "Path redaction, forward-slash aliases and portable ASCII-escaped JSON; scientific fields retained"
+  },
+  {
+    "path": "new_experiments/formal/completion.json",
+    "original_sha256": "4a4cb279f020ec03edb8e8323e68dcd2007b41ad9fddbaf9a98ea75893db6e25",
+    "public_sha256": "06a10afd7b8b113c7b5e6b0adbbc4dedf2bf03dc37c1352ff95526cd7009bd50",
+    "action": "Path redaction, forward-slash aliases and portable ASCII-escaped JSON; scientific fields retained"
+  },
+  {
+    "path": "new_experiments/formal/config.json",
+    "original_sha256": "8f23c3fec894b131077c3d4bd5948d5e2a975d13e7c416b79220315e46f16026",
+    "public_sha256": "0323353cdadf56c1887ba766f6d0e82be9c7304661c0ce62a99fd7c66b414c76",
+    "action": "Path redaction, forward-slash aliases and portable ASCII-escaped JSON; scientific fields retained"
+  },
+  {
+    "path": "new_experiments/formal/environment.json",
+    "original_sha256": "e47ab6af62996041b5b1b8c1b2f845bf5065040bef85454c704e93ff933098a5",
+    "public_sha256": "28a52ab5831c7f27e745289248bd334f09be302746cd05c902b8e65cb43bc49f",
+    "action": "Path redaction, forward-slash aliases and portable ASCII-escaped JSON; scientific fields retained"
+  },
+  {
+    "path": "new_experiments/smoke/completion.json",
+    "original_sha256": "2283653f66d28585a095172cef13f32eb5643c7b371b6d49b885230dd2aade69",
+    "public_sha256": "d931dd721f6ee10bccc7514a67d6eb7f31d003e7adf74e4f31e3647fc96833ef",
+    "action": "Path redaction, forward-slash aliases and portable ASCII-escaped JSON; scientific fields retained"
+  },
+  {
+    "path": "new_experiments/smoke/config.json",
+    "original_sha256": "8f23c3fec894b131077c3d4bd5948d5e2a975d13e7c416b79220315e46f16026",
+    "public_sha256": "0323353cdadf56c1887ba766f6d0e82be9c7304661c0ce62a99fd7c66b414c76",
+    "action": "Path redaction, forward-slash aliases and portable ASCII-escaped JSON; scientific fields retained"
+  },
+  {
+    "path": "new_experiments/smoke/environment.json",
+    "original_sha256": "00ecc379696b70e4ad4b940db5e3ea27cc2e56b5b8e04719c4d0b7163ad7e9a2",
+    "public_sha256": "28a52ab5831c7f27e745289248bd334f09be302746cd05c902b8e65cb43bc49f",
+    "action": "Path redaction, forward-slash aliases and portable ASCII-escaped JSON; scientific fields retained"
+  }
+]

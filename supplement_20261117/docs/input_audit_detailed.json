@@ -1,0 +1,2848 @@
+[
+  {
+    "path": "\u65e0\u6807\u5ea6/results_exp1/experiment_1_raw.csv",
+    "sha256": "634c7939e389e0b4785d8256e70ca19c2de6b0e97781c591d6b089fd2bc267cb",
+    "rows": 110,
+    "endpoint_valid_rows": 110,
+    "invalid_endpoint_rows": [],
+    "missing_cells": 0,
+    "columns": [
+      "A_env",
+      "run_id",
+      "seed",
+      "grid_size",
+      "num_nodes",
+      "network_type",
+      "scale_free_m",
+      "network_nodes",
+      "network_edges",
+      "network_mean_degree",
+      "network_max_degree",
+      "steps",
+      "steady_window",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "mean_payoff",
+      "std_x_time",
+      "std_a_time",
+      "std_D_time",
+      "std_M_time",
+      "std_payoff_time",
+      "elapsed_seconds"
+    ],
+    "duplicate_full_rows": 0,
+    "candidate_identity_columns": [
+      "A_env",
+      "run_id",
+      "seed"
+    ],
+    "candidate_duplicate_rows": 0,
+    "metadata_paths": [],
+    "run_time_code_version": "not stored / not verified",
+    "observed_settings": {
+      "grid_size": [
+        100
+      ],
+      "num_nodes": [
+        10000
+      ],
+      "steps": [
+        10000
+      ],
+      "steady_window": [
+        500
+      ]
+    }
+  },
+  {
+    "path": "\u65e0\u6807\u5ea6/results_exp1_old/experiment_1_raw.csv",
+    "sha256": "17d1511f844791345a280a6f843537a8cea62fd44494915a6fc7c70b2dc1b741",
+    "rows": 110,
+    "endpoint_valid_rows": 110,
+    "invalid_endpoint_rows": [],
+    "missing_cells": 0,
+    "columns": [
+      "A_env",
+      "run_id",
+      "seed",
+      "grid_size",
+      "network_type",
+      "scale_free_m",
+      "network_nodes",
+      "network_edges",
+      "network_mean_degree",
+      "network_max_degree",
+      "steps",
+      "steady_window",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "mean_payoff",
+      "std_x_time",
+      "std_a_time",
+      "std_D_time",
+      "std_M_time",
+      "std_payoff_time",
+      "elapsed_seconds"
+    ],
+    "duplicate_full_rows": 0,
+    "candidate_identity_columns": [
+      "A_env",
+      "run_id",
+      "seed"
+    ],
+    "candidate_duplicate_rows": 0,
+    "metadata_paths": [],
+    "run_time_code_version": "not stored / not verified",
+    "observed_settings": {
+      "grid_size": [
+        100
+      ],
+      "steps": [
+        5000
+      ],
+      "steady_window": [
+        100
+      ]
+    }
+  },
+  {
+    "path": "\u65e0\u6807\u5ea6/results_exp2_scanA/experiment_2_raw.csv",
+    "sha256": "c1840b86529c59032d78d9b224fa1274179f46b31091ecad2555f1595b09fd66",
+    "rows": 440,
+    "endpoint_valid_rows": 440,
+    "invalid_endpoint_rows": [],
+    "missing_cells": 0,
+    "columns": [
+      "model",
+      "A_env",
+      "run_id",
+      "seed",
+      "grid_size",
+      "num_nodes",
+      "network_type",
+      "scale_free_m",
+      "network_nodes",
+      "network_edges",
+      "network_mean_degree",
+      "network_max_degree",
+      "steps",
+      "steady_window",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "mean_payoff",
+      "std_x_time",
+      "std_a_time",
+      "std_D_time",
+      "std_M_time",
+      "std_payoff_time",
+      "elapsed_seconds"
+    ],
+    "duplicate_full_rows": 0,
+    "candidate_identity_columns": [
+      "model",
+      "A_env",
+      "run_id",
+      "seed"
+    ],
+    "candidate_duplicate_rows": 0,
+    "metadata_paths": [],
+    "run_time_code_version": "not stored / not verified",
+    "observed_settings": {
+      "grid_size": [
+        100
+      ],
+      "num_nodes": [
+        10000
+      ],
+      "steps": [
+        20000
+      ],
+      "steady_window": [
+        500
+      ]
+    }
+  },
+  {
+    "path": "\u65e0\u6807\u5ea6/results_exp2_scanA_old/experiment_2_raw.csv",
+    "sha256": "aec8c83d00833e2fbd8bc2ebb6ad7711391f004918e938f30136bbea275e1df0",
+    "rows": 220,
+    "endpoint_valid_rows": 220,
+    "invalid_endpoint_rows": [],
+    "missing_cells": 0,
+    "columns": [
+      "model",
+      "A_env",
+      "run_id",
+      "seed",
+      "grid_size",
+      "network_type",
+      "scale_free_m",
+      "network_nodes",
+      "network_edges",
+      "network_mean_degree",
+      "network_max_degree",
+      "steps",
+      "steady_window",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "mean_payoff",
+      "std_x_time",
+      "std_a_time",
+      "std_D_time",
+      "std_M_time",
+      "std_payoff_time",
+      "elapsed_seconds"
+    ],
+    "duplicate_full_rows": 0,
+    "candidate_identity_columns": [
+      "model",
+      "A_env",
+      "run_id",
+      "seed"
+    ],
+    "candidate_duplicate_rows": 0,
+    "metadata_paths": [],
+    "run_time_code_version": "not stored / not verified",
+    "observed_settings": {
+      "grid_size": [
+        50
+      ],
+      "steps": [
+        20000
+      ],
+      "steady_window": [
+        500
+      ]
+    }
+  },
+  {
+    "path": "\u65e0\u6807\u5ea6/results_qa_public_good_validation_scalefree/qa_public_good_scalefree_raw.csv",
+    "sha256": "08a088541b8d52efede8ea6e30d728b455f38d29795321c51a9eb31e26c38209",
+    "rows": 660,
+    "endpoint_valid_rows": 660,
+    "invalid_endpoint_rows": [],
+    "missing_cells": 0,
+    "columns": [
+      "model_variant",
+      "qa_sharing_eta",
+      "qa_sharing_label",
+      "A_env",
+      "seed",
+      "num_nodes",
+      "scale_free_m",
+      "mean_degree",
+      "max_degree",
+      "steps",
+      "tail_window",
+      "sample_every",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "mean_payoff",
+      "sd_x_tail",
+      "sd_a_tail",
+      "sd_D_tail",
+      "sd_M_tail"
+    ],
+    "duplicate_full_rows": 0,
+    "candidate_identity_columns": [
+      "A_env",
+      "seed"
+    ],
+    "candidate_duplicate_rows": 660,
+    "metadata_paths": [
+      "\u65e0\u6807\u5ea6/results_qa_public_good_validation_scalefree/experiment_config.json"
+    ],
+    "run_time_code_version": "not stored / not verified",
+    "observed_settings": {
+      "num_nodes": [
+        10000
+      ],
+      "steps": [
+        10000
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp1/experiment_1_raw.csv",
+    "sha256": "335beb65d57cc53802c6e81233b9452dfc23a902eb28b0742f565acc9ed975c0",
+    "rows": 110,
+    "endpoint_valid_rows": 110,
+    "invalid_endpoint_rows": [],
+    "missing_cells": 0,
+    "columns": [
+      "A_env",
+      "run_id",
+      "seed",
+      "grid_size",
+      "steps",
+      "steady_window",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "mean_payoff",
+      "std_x_time",
+      "std_a_time",
+      "std_D_time",
+      "std_M_time",
+      "std_payoff_time",
+      "elapsed_seconds"
+    ],
+    "duplicate_full_rows": 0,
+    "candidate_identity_columns": [
+      "A_env",
+      "run_id",
+      "seed"
+    ],
+    "candidate_duplicate_rows": 0,
+    "metadata_paths": [],
+    "run_time_code_version": "not stored / not verified",
+    "observed_settings": {
+      "grid_size": [
+        100
+      ],
+      "steps": [
+        10000
+      ],
+      "steady_window": [
+        500
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp1_fixed_memory_lambda0p34/experiment_1_raw.csv",
+    "sha256": "de79372fcbca886ba0a51d56430c259bcb748b18a58a2b08255c0d1f38f467b7",
+    "rows": 160,
+    "endpoint_valid_rows": 160,
+    "invalid_endpoint_rows": [],
+    "missing_cells": 0,
+    "columns": [
+      "A_env",
+      "run_id",
+      "seed",
+      "grid_size",
+      "steps",
+      "steady_window",
+      "r_public",
+      "w_payoff",
+      "w_memory",
+      "alpha_conc",
+      "lambda_0",
+      "lambda_A",
+      "lambda_M",
+      "init_D_max",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "mean_payoff",
+      "std_x_time",
+      "std_a_time",
+      "std_D_time",
+      "std_M_time",
+      "std_payoff_time",
+      "tail_drift_x",
+      "tail_drift_a",
+      "tail_drift_D",
+      "tail_drift_M",
+      "tail_drift_payoff",
+      "elapsed_seconds",
+      "target_runs",
+      "is_transition_point",
+      "memory_update_mode"
+    ],
+    "duplicate_full_rows": 0,
+    "candidate_identity_columns": [
+      "A_env",
+      "run_id",
+      "seed"
+    ],
+    "candidate_duplicate_rows": 0,
+    "metadata_paths": [
+      "\u65b9\u683c\u7f51/results_exp1_fixed_memory_lambda0p34/experiment_1_config.json"
+    ],
+    "run_time_code_version": "not stored / not verified",
+    "observed_settings": {
+      "grid_size": [
+        100
+      ],
+      "steps": [
+        50000
+      ],
+      "steady_window": [
+        500
+      ],
+      "w_payoff": [
+        0.88
+      ],
+      "w_memory": [
+        0.12
+      ],
+      "alpha_conc": [
+        0.18
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp1_refined/experiment_1_raw.csv",
+    "sha256": "f0cdb4b8ddcef24cb407e8ef829f237ec98bd1e98fc2d0c281bbe8072d2bd209",
+    "rows": 300,
+    "endpoint_valid_rows": 300,
+    "invalid_endpoint_rows": [],
+    "missing_cells": 0,
+    "columns": [
+      "A_env",
+      "run_id",
+      "seed",
+      "grid_size",
+      "steps",
+      "steady_window",
+      "r_public",
+      "w_payoff",
+      "w_memory",
+      "alpha_conc",
+      "memory_gate_strength",
+      "init_D_max",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "mean_payoff",
+      "std_x_time",
+      "std_a_time",
+      "std_D_time",
+      "std_M_time",
+      "std_payoff_time",
+      "tail_drift_x",
+      "tail_drift_a",
+      "tail_drift_D",
+      "tail_drift_M",
+      "tail_drift_payoff",
+      "elapsed_seconds",
+      "target_runs",
+      "is_transition_point"
+    ],
+    "duplicate_full_rows": 0,
+    "candidate_identity_columns": [
+      "A_env",
+      "run_id",
+      "seed"
+    ],
+    "candidate_duplicate_rows": 0,
+    "metadata_paths": [
+      "\u65b9\u683c\u7f51/results_exp1_refined/experiment_1_config.json"
+    ],
+    "run_time_code_version": "not stored / not verified",
+    "observed_settings": {
+      "grid_size": [
+        100
+      ],
+      "steps": [
+        10000
+      ],
+      "steady_window": [
+        500
+      ],
+      "w_payoff": [
+        0.88
+      ],
+      "w_memory": [
+        0.12
+      ],
+      "alpha_conc": [
+        0.18
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp1_refined_concentration_gate/experiment_1_raw.csv",
+    "sha256": "1cbfb8ce3a421cfb607cf1fa47125c9de10491a5d9f9cbae26548f7fbf8c7232",
+    "rows": 160,
+    "endpoint_valid_rows": 160,
+    "invalid_endpoint_rows": [],
+    "missing_cells": 0,
+    "columns": [
+      "A_env",
+      "run_id",
+      "seed",
+      "grid_size",
+      "steps",
+      "steady_window",
+      "r_public",
+      "w_payoff",
+      "w_memory",
+      "alpha_conc",
+      "init_D_max",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "mean_payoff",
+      "std_x_time",
+      "std_a_time",
+      "std_D_time",
+      "std_M_time",
+      "std_payoff_time",
+      "tail_drift_x",
+      "tail_drift_a",
+      "tail_drift_D",
+      "tail_drift_M",
+      "tail_drift_payoff",
+      "elapsed_seconds",
+      "target_runs",
+      "is_transition_point"
+    ],
+    "duplicate_full_rows": 0,
+    "candidate_identity_columns": [
+      "A_env",
+      "run_id",
+      "seed"
+    ],
+    "candidate_duplicate_rows": 0,
+    "metadata_paths": [
+      "\u65b9\u683c\u7f51/results_exp1_refined_concentration_gate/experiment_1_config.json"
+    ],
+    "run_time_code_version": "not stored / not verified",
+    "observed_settings": {
+      "grid_size": [
+        100
+      ],
+      "steps": [
+        50000
+      ],
+      "steady_window": [
+        500
+      ],
+      "w_payoff": [
+        0.88
+      ],
+      "w_memory": [
+        0.12
+      ],
+      "alpha_conc": [
+        0.18
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp1_refined_no_gate/experiment_1_raw.csv",
+    "sha256": "21f81e8349fbf3651a3f439636eae183eccc19ddc4e5e3052b23eb1df5932499",
+    "rows": 160,
+    "endpoint_valid_rows": 160,
+    "invalid_endpoint_rows": [],
+    "missing_cells": 0,
+    "columns": [
+      "A_env",
+      "run_id",
+      "seed",
+      "grid_size",
+      "steps",
+      "steady_window",
+      "r_public",
+      "w_payoff",
+      "w_memory",
+      "alpha_conc",
+      "init_D_max",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "mean_payoff",
+      "std_x_time",
+      "std_a_time",
+      "std_D_time",
+      "std_M_time",
+      "std_payoff_time",
+      "tail_drift_x",
+      "tail_drift_a",
+      "tail_drift_D",
+      "tail_drift_M",
+      "tail_drift_payoff",
+      "elapsed_seconds",
+      "target_runs",
+      "is_transition_point"
+    ],
+    "duplicate_full_rows": 0,
+    "candidate_identity_columns": [
+      "A_env",
+      "run_id",
+      "seed"
+    ],
+    "candidate_duplicate_rows": 0,
+    "metadata_paths": [
+      "\u65b9\u683c\u7f51/results_exp1_refined_no_gate/experiment_1_config.json"
+    ],
+    "run_time_code_version": "not stored / not verified",
+    "observed_settings": {
+      "grid_size": [
+        100
+      ],
+      "steps": [
+        10000
+      ],
+      "steady_window": [
+        500
+      ],
+      "w_payoff": [
+        0.88
+      ],
+      "w_memory": [
+        0.12
+      ],
+      "alpha_conc": [
+        0.18
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp2b_screening_function_ablation/screening_function_ablation_raw.csv",
+    "sha256": "fb248147aaad275a0fca00c2dd253abda52901ec30550a108d92af3260821456",
+    "rows": 560,
+    "endpoint_valid_rows": 560,
+    "invalid_endpoint_rows": [],
+    "missing_cells": 241,
+    "columns": [
+      "gate",
+      "screening_mode",
+      "A_env",
+      "alpha_conc",
+      "run_id",
+      "seed",
+      "grid_size",
+      "steps",
+      "steady_window",
+      "elapsed_s",
+      "mean_a",
+      "mean_x",
+      "mean_D",
+      "mean_M",
+      "mean_payoff",
+      "mean_rho",
+      "mean_rho_D",
+      "mean_gate_multiplier",
+      "fraction_rho_ge_0_9",
+      "corr_D_rho_D"
+    ],
+    "duplicate_full_rows": 0,
+    "candidate_identity_columns": [
+      "gate",
+      "A_env",
+      "run_id",
+      "seed",
+      "screening_mode"
+    ],
+    "candidate_duplicate_rows": 540,
+    "metadata_paths": [],
+    "run_time_code_version": "not stored / not verified",
+    "observed_settings": {
+      "grid_size": [
+        100
+      ],
+      "steps": [
+        10000
+      ],
+      "steady_window": [
+        500
+      ],
+      "screening_mode": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "alpha_conc": [
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.18,
+        0.2,
+        0.25,
+        0.3,
+        0.4,
+        0.5
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp2_five_group_with_fermi/experiment_2_raw.csv",
+    "sha256": "c531ff3bb9e16a90d94653476d71f110459ffd481f97ebde5c28b291249857c8",
+    "rows": 550,
+    "endpoint_valid_rows": 550,
+    "invalid_endpoint_rows": [],
+    "missing_cells": 880,
+    "columns": [
+      "model",
+      "A_env",
+      "run_id",
+      "seed",
+      "grid_size",
+      "steps",
+      "steady_window",
+      "w_payoff",
+      "w_memory",
+      "alpha_conc",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "mean_payoff",
+      "std_x_time",
+      "std_a_time",
+      "std_D_time",
+      "std_M_time",
+      "std_payoff_time",
+      "elapsed_seconds",
+      "selection_rule",
+      "fermi_K"
+    ],
+    "duplicate_full_rows": 0,
+    "candidate_identity_columns": [
+      "model",
+      "A_env",
+      "run_id",
+      "seed"
+    ],
+    "candidate_duplicate_rows": 0,
+    "metadata_paths": [],
+    "run_time_code_version": "not stored / not verified",
+    "observed_settings": {
+      "grid_size": [
+        100
+      ],
+      "steps": [
+        50000
+      ],
+      "steady_window": [
+        500
+      ],
+      "w_payoff": [
+        1.0,
+        0.88
+      ],
+      "w_memory": [
+        0.0,
+        0.12
+      ],
+      "alpha_conc": [
+        0.0,
+        0.18
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp2_four_group_concentration_gate/experiment_2_raw.csv",
+    "sha256": "27e35fc2df567e18442e29b60826ee83a1173746abb7daf4cd371ca3587136b9",
+    "rows": 440,
+    "endpoint_valid_rows": 440,
+    "invalid_endpoint_rows": [],
+    "missing_cells": 0,
+    "columns": [
+      "model",
+      "A_env",
+      "run_id",
+      "seed",
+      "grid_size",
+      "steps",
+      "steady_window",
+      "w_payoff",
+      "w_memory",
+      "alpha_conc",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "mean_payoff",
+      "std_x_time",
+      "std_a_time",
+      "std_D_time",
+      "std_M_time",
+      "std_payoff_time",
+      "elapsed_seconds"
+    ],
+    "duplicate_full_rows": 0,
+    "candidate_identity_columns": [
+      "model",
+      "A_env",
+      "run_id",
+      "seed"
+    ],
+    "candidate_duplicate_rows": 0,
+    "metadata_paths": [],
+    "run_time_code_version": "not stored / not verified",
+    "observed_settings": {
+      "grid_size": [
+        100
+      ],
+      "steps": [
+        50000
+      ],
+      "steady_window": [
+        500
+      ],
+      "w_payoff": [
+        1.0,
+        0.88
+      ],
+      "w_memory": [
+        0.0,
+        0.12
+      ],
+      "alpha_conc": [
+        0.0,
+        0.18
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp2_four_group_no_gate/experiment_2_raw.csv",
+    "sha256": "f23a3fcde03919f8b1da7a64afdd120cbba48619c09f95e8d1595b4fa7b92221",
+    "rows": 440,
+    "endpoint_valid_rows": 440,
+    "invalid_endpoint_rows": [],
+    "missing_cells": 0,
+    "columns": [
+      "model",
+      "A_env",
+      "run_id",
+      "seed",
+      "grid_size",
+      "steps",
+      "steady_window",
+      "w_payoff",
+      "w_memory",
+      "alpha_conc",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "mean_payoff",
+      "std_x_time",
+      "std_a_time",
+      "std_D_time",
+      "std_M_time",
+      "std_payoff_time",
+      "elapsed_seconds"
+    ],
+    "duplicate_full_rows": 0,
+    "candidate_identity_columns": [
+      "model",
+      "A_env",
+      "run_id",
+      "seed"
+    ],
+    "candidate_duplicate_rows": 0,
+    "metadata_paths": [],
+    "run_time_code_version": "not stored / not verified",
+    "observed_settings": {
+      "grid_size": [
+        100
+      ],
+      "steps": [
+        20000
+      ],
+      "steady_window": [
+        500
+      ],
+      "w_payoff": [
+        1.0,
+        0.88
+      ],
+      "w_memory": [
+        0.0,
+        0.12
+      ],
+      "alpha_conc": [
+        0.0,
+        0.18
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp2_scanA/experiment_2_raw.csv",
+    "sha256": "d1266b9f6863129a2150eca311b182f79bda0d9b8f16f0b0edc8c13ce5fa7b83",
+    "rows": 440,
+    "endpoint_valid_rows": 440,
+    "invalid_endpoint_rows": [],
+    "missing_cells": 0,
+    "columns": [
+      "model",
+      "A_env",
+      "run_id",
+      "seed",
+      "grid_size",
+      "steps",
+      "steady_window",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "mean_payoff",
+      "std_x_time",
+      "std_a_time",
+      "std_D_time",
+      "std_M_time",
+      "std_payoff_time",
+      "elapsed_seconds"
+    ],
+    "duplicate_full_rows": 0,
+    "candidate_identity_columns": [
+      "model",
+      "A_env",
+      "run_id",
+      "seed"
+    ],
+    "candidate_duplicate_rows": 0,
+    "metadata_paths": [],
+    "run_time_code_version": "not stored / not verified",
+    "observed_settings": {
+      "grid_size": [
+        100
+      ],
+      "steps": [
+        20000
+      ],
+      "steady_window": [
+        500
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp2_six_group/experiment_2_raw.csv",
+    "sha256": "f0ed8d8640523ecd5be2281d0287728fff9edbdcaa786efeb8a3950a4ef2193b",
+    "rows": 660,
+    "endpoint_valid_rows": 660,
+    "invalid_endpoint_rows": [],
+    "missing_cells": 0,
+    "columns": [
+      "model",
+      "A_env",
+      "run_id",
+      "seed",
+      "grid_size",
+      "steps",
+      "steady_window",
+      "w_payoff",
+      "w_memory",
+      "alpha_conc",
+      "memory_gate_strength",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "mean_payoff",
+      "std_x_time",
+      "std_a_time",
+      "std_D_time",
+      "std_M_time",
+      "std_payoff_time",
+      "elapsed_seconds"
+    ],
+    "duplicate_full_rows": 0,
+    "candidate_identity_columns": [
+      "model",
+      "A_env",
+      "run_id",
+      "seed"
+    ],
+    "candidate_duplicate_rows": 0,
+    "metadata_paths": [],
+    "run_time_code_version": "not stored / not verified",
+    "observed_settings": {
+      "grid_size": [
+        100
+      ],
+      "steps": [
+        20000
+      ],
+      "steady_window": [
+        500
+      ],
+      "w_payoff": [
+        1.0,
+        0.88
+      ],
+      "w_memory": [
+        0.0,
+        0.12
+      ],
+      "alpha_conc": [
+        0.0,
+        0.18
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp4_compact/experiment_4_compact_raw.csv",
+    "sha256": "636cece2b3af4020a5a71a971e6c54ba22113b8f14634f662dba8705ef0e790a",
+    "rows": 620,
+    "endpoint_valid_rows": 620,
+    "invalid_endpoint_rows": [],
+    "missing_cells": 1150,
+    "columns": [
+      "experiment",
+      "condition_id",
+      "A_env",
+      "parameter",
+      "level",
+      "parameter_value",
+      "interaction",
+      "moderator",
+      "moderator_value",
+      "run_id",
+      "run_signature",
+      "seed_base",
+      "grid_size",
+      "steps",
+      "steady_window",
+      "sample_interval",
+      "mean_a",
+      "mean_x",
+      "mean_D",
+      "num_samples",
+      "elapsed_seconds",
+      "seed"
+    ],
+    "duplicate_full_rows": 0,
+    "candidate_identity_columns": [
+      "A_env",
+      "run_id",
+      "seed"
+    ],
+    "candidate_duplicate_rows": 620,
+    "metadata_paths": [
+      "\u65b9\u683c\u7f51/results_exp4_compact/experiment_4_compact_config.json"
+    ],
+    "run_time_code_version": "not stored / not verified",
+    "observed_settings": {
+      "grid_size": [
+        50,
+        100
+      ],
+      "steps": [
+        5000,
+        10000
+      ],
+      "steady_window": [
+        500,
+        1000
+      ],
+      "sample_interval": [
+        10
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp4_phase_10x10/experiment_4_phase_10x10_raw.csv",
+    "sha256": "8cbe9295ab94a3b461096c64220335fb426fc332dab9d96e078a652d7e38c7ff",
+    "rows": 3000,
+    "endpoint_valid_rows": 3000,
+    "invalid_endpoint_rows": [],
+    "missing_cells": 0,
+    "columns": [
+      "scan",
+      "x_name",
+      "y_name",
+      "i_x",
+      "i_y",
+      "x_value",
+      "y_value",
+      "A_env",
+      "alpha_conc",
+      "w_memory",
+      "w_payoff",
+      "r_public",
+      "memory_gate_strength",
+      "run_id",
+      "seed",
+      "grid_size",
+      "steps",
+      "steady_window",
+      "sample_interval",
+      "num_samples",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "std_x_time",
+      "std_a_time",
+      "std_D_time",
+      "std_M_time",
+      "tail_drift_x",
+      "tail_drift_a",
+      "tail_drift_D",
+      "tail_drift_M",
+      "elapsed_seconds"
+    ],
+    "duplicate_full_rows": 0,
+    "candidate_identity_columns": [
+      "A_env",
+      "run_id",
+      "seed"
+    ],
+    "candidate_duplicate_rows": 3000,
+    "metadata_paths": [
+      "\u65b9\u683c\u7f51/results_exp4_phase_10x10/experiment_4_phase_10x10_metadata.json"
+    ],
+    "run_time_code_version": "not stored / not verified",
+    "observed_settings": {
+      "grid_size": [
+        100
+      ],
+      "steps": [
+        10000
+      ],
+      "steady_window": [
+        500
+      ],
+      "sample_interval": [
+        10
+      ],
+      "w_payoff": [
+        0.88,
+        1.0,
+        0.9444444444,
+        0.8888888889,
+        0.8333333333,
+        0.7777777778,
+        0.7222222222,
+        0.6666666667,
+        0.6111111111,
+        0.5555555556,
+        0.5
+      ],
+      "w_memory": [
+        0.12,
+        0.0,
+        0.05555555556,
+        0.1111111111,
+        0.1666666667,
+        0.2222222222,
+        0.2777777778,
+        0.3333333333,
+        0.3888888889,
+        0.4444444444,
+        0.5
+      ],
+      "alpha_conc": [
+        0.0,
+        0.05555555556,
+        0.1111111111,
+        0.1666666667,
+        0.2222222222,
+        0.2777777778,
+        0.3333333333,
+        0.3888888889,
+        0.4444444444,
+        0.5,
+        0.18
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp4_phase_A0p1_param0p05/experiment_4_phase_A0p1_param0p05_raw.csv",
+    "sha256": "e6c93a9978ffffc673311a09c6ba8311fda72e785cbd2bf411ecfac44a8e6f9e",
+    "rows": 3630,
+    "endpoint_valid_rows": 3630,
+    "invalid_endpoint_rows": [],
+    "missing_cells": 0,
+    "columns": [
+      "scan",
+      "x_name",
+      "y_name",
+      "i_x",
+      "i_y",
+      "x_value",
+      "y_value",
+      "A_env",
+      "alpha_conc",
+      "w_memory",
+      "w_payoff",
+      "r_public",
+      "memory_gate_strength",
+      "run_id",
+      "seed",
+      "grid_size",
+      "steps",
+      "steady_window",
+      "sample_interval",
+      "num_samples",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "std_x_time",
+      "std_a_time",
+      "std_D_time",
+      "std_M_time",
+      "tail_drift_x",
+      "tail_drift_a",
+      "tail_drift_D",
+      "tail_drift_M",
+      "elapsed_seconds"
+    ],
+    "duplicate_full_rows": 0,
+    "candidate_identity_columns": [
+      "A_env",
+      "run_id",
+      "seed"
+    ],
+    "candidate_duplicate_rows": 3630,
+    "metadata_paths": [
+      "\u65b9\u683c\u7f51/results_exp4_phase_A0p1_param0p05/experiment_4_phase_A0p1_param0p05_metadata.json"
+    ],
+    "run_time_code_version": "not stored / not verified",
+    "observed_settings": {
+      "grid_size": [
+        100
+      ],
+      "steps": [
+        10000
+      ],
+      "steady_window": [
+        500
+      ],
+      "sample_interval": [
+        10
+      ],
+      "w_payoff": [
+        0.88,
+        1.0,
+        0.95,
+        0.9,
+        0.85,
+        0.8,
+        0.75,
+        0.7,
+        0.65,
+        0.6,
+        0.55,
+        0.5
+      ],
+      "w_memory": [
+        0.12,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.2,
+        0.25,
+        0.3,
+        0.35,
+        0.4,
+        0.45,
+        0.5
+      ],
+      "alpha_conc": [
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.2,
+        0.25,
+        0.3,
+        0.35,
+        0.4,
+        0.45,
+        0.5,
+        0.18
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp4_phase_concentration_gate_A0p1_param0p05/experiment_4_phase_concentration_gate_A0p1_param0p05_raw.csv",
+    "sha256": "3eb0658c4f694717eb7869894dd02fb891a5400f31a4acd787e432933977f573",
+    "rows": 3630,
+    "endpoint_valid_rows": 3630,
+    "invalid_endpoint_rows": [],
+    "missing_cells": 0,
+    "columns": [
+      "scan",
+      "x_name",
+      "y_name",
+      "i_x",
+      "i_y",
+      "x_value",
+      "y_value",
+      "A_env",
+      "alpha_conc",
+      "w_memory",
+      "w_payoff",
+      "r_public",
+      "run_id",
+      "seed",
+      "grid_size",
+      "steps",
+      "steady_window",
+      "sample_interval",
+      "num_samples",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "std_x_time",
+      "std_a_time",
+      "std_D_time",
+      "std_M_time",
+      "tail_drift_x",
+      "tail_drift_a",
+      "tail_drift_D",
+      "tail_drift_M",
+      "elapsed_seconds"
+    ],
+    "duplicate_full_rows": 0,
+    "candidate_identity_columns": [
+      "A_env",
+      "run_id",
+      "seed"
+    ],
+    "candidate_duplicate_rows": 3630,
+    "metadata_paths": [
+      "\u65b9\u683c\u7f51/results_exp4_phase_concentration_gate_A0p1_param0p05/experiment_4_phase_concentration_gate_A0p1_param0p05_metadata.json"
+    ],
+    "run_time_code_version": "not stored / not verified",
+    "observed_settings": {
+      "grid_size": [
+        100
+      ],
+      "steps": [
+        50000
+      ],
+      "steady_window": [
+        500
+      ],
+      "sample_interval": [
+        10
+      ],
+      "w_payoff": [
+        0.88,
+        1.0,
+        0.95,
+        0.9,
+        0.85,
+        0.8,
+        0.75,
+        0.7,
+        0.65,
+        0.6,
+        0.55,
+        0.5
+      ],
+      "w_memory": [
+        0.12,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.2,
+        0.25,
+        0.3,
+        0.35,
+        0.4,
+        0.45,
+        0.5
+      ],
+      "alpha_conc": [
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.2,
+        0.25,
+        0.3,
+        0.35,
+        0.4,
+        0.45,
+        0.5,
+        0.18
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp4_phase_no_gate_A0p1_param0p05/experiment_4_phase_no_gate_A0p1_param0p05_raw.csv",
+    "sha256": "ac4fd73218ee2a93cd8fb60e4044eac06428078d4d5b6ae50e9f1eea5b41cedf",
+    "rows": 3630,
+    "endpoint_valid_rows": 3630,
+    "invalid_endpoint_rows": [],
+    "missing_cells": 0,
+    "columns": [
+      "scan",
+      "x_name",
+      "y_name",
+      "i_x",
+      "i_y",
+      "x_value",
+      "y_value",
+      "A_env",
+      "alpha_conc",
+      "w_memory",
+      "w_payoff",
+      "r_public",
+      "run_id",
+      "seed",
+      "grid_size",
+      "steps",
+      "steady_window",
+      "sample_interval",
+      "num_samples",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "std_x_time",
+      "std_a_time",
+      "std_D_time",
+      "std_M_time",
+      "tail_drift_x",
+      "tail_drift_a",
+      "tail_drift_D",
+      "tail_drift_M",
+      "elapsed_seconds"
+    ],
+    "duplicate_full_rows": 0,
+    "candidate_identity_columns": [
+      "A_env",
+      "run_id",
+      "seed"
+    ],
+    "candidate_duplicate_rows": 3630,
+    "metadata_paths": [
+      "\u65b9\u683c\u7f51/results_exp4_phase_no_gate_A0p1_param0p05/experiment_4_phase_no_gate_A0p1_param0p05_metadata.json"
+    ],
+    "run_time_code_version": "not stored / not verified",
+    "observed_settings": {
+      "grid_size": [
+        100
+      ],
+      "steps": [
+        10000
+      ],
+      "steady_window": [
+        500
+      ],
+      "sample_interval": [
+        10
+      ],
+      "w_payoff": [
+        0.88,
+        1.0,
+        0.95,
+        0.9,
+        0.85,
+        0.8,
+        0.75,
+        0.7,
+        0.65,
+        0.6,
+        0.55,
+        0.5
+      ],
+      "w_memory": [
+        0.12,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.2,
+        0.25,
+        0.3,
+        0.35,
+        0.4,
+        0.45,
+        0.5
+      ],
+      "alpha_conc": [
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.2,
+        0.25,
+        0.3,
+        0.35,
+        0.4,
+        0.45,
+        0.5,
+        0.18
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp4_preview_lines/preview_raw.csv",
+    "sha256": "5da55a316e0ea4d405ed8c9bd0a55eb77434db79cf8c3637a83aea4d04fccb9c",
+    "rows": 209,
+    "endpoint_valid_rows": 209,
+    "invalid_endpoint_rows": [],
+    "missing_cells": 0,
+    "columns": [
+      "preview",
+      "x_axis_name",
+      "x_axis_value",
+      "line_name",
+      "line_value",
+      "run_id",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "elapsed_seconds",
+      "seed"
+    ],
+    "duplicate_full_rows": 0,
+    "candidate_identity_columns": [
+      "run_id",
+      "seed"
+    ],
+    "candidate_duplicate_rows": 209,
+    "metadata_paths": [],
+    "run_time_code_version": "not stored / not verified",
+    "observed_settings": {}
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp5b_diversity_alpha_sensitivity/diversity_alpha_outcomes_raw.csv",
+    "sha256": "a0d3116a6494870f6ac672cf529e4d83851ecec859f72782083bfe7fe55eb533",
+    "rows": 48,
+    "endpoint_valid_rows": null,
+    "invalid_endpoint_rows": [],
+    "missing_cells": 0,
+    "columns": [
+      "alpha_conc",
+      "delta",
+      "layout",
+      "model",
+      "screening_mode",
+      "run_id",
+      "seed",
+      "early_window",
+      "final_lsd",
+      "peak_lsd",
+      "early_peak_lsd",
+      "early_lsd_auc",
+      "lsd_auc",
+      "peak_D",
+      "final_D",
+      "early_debt_auc",
+      "debt_auc",
+      "min_x",
+      "final_x",
+      "final_a",
+      "final_rho",
+      "elapsed_s"
+    ],
+    "duplicate_full_rows": 0,
+    "candidate_identity_columns": [
+      "model",
+      "run_id",
+      "seed",
+      "screening_mode"
+    ],
+    "candidate_duplicate_rows": 48,
+    "metadata_paths": [
+      "\u65b9\u683c\u7f51/results_exp5b_diversity_alpha_sensitivity/diversity_alpha_metadata.json"
+    ],
+    "run_time_code_version": "not stored / not verified",
+    "observed_settings": {
+      "screening_mode": [
+        1,
+        3
+      ],
+      "alpha_conc": [
+        0.18,
+        0.3,
+        0.5,
+        0.8
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp5b_diversity_alpha_sensitivity/diversity_alpha_time_series_raw.csv",
+    "sha256": "2330d7d87f1e024586b05f920fb465634c6e8c32be5264e6e9127150cb66c0d4",
+    "rows": 3648,
+    "endpoint_valid_rows": 3648,
+    "invalid_endpoint_rows": [],
+    "missing_cells": 0,
+    "columns": [
+      "alpha_conc",
+      "delta",
+      "layout",
+      "model",
+      "screening_mode",
+      "A_env",
+      "run_id",
+      "seed",
+      "time",
+      "mean_lsd",
+      "mean_a",
+      "mean_x",
+      "mean_D",
+      "mean_M",
+      "mean_rho",
+      "mean_rho_D"
+    ],
+    "duplicate_full_rows": 0,
+    "candidate_identity_columns": [
+      "model",
+      "A_env",
+      "run_id",
+      "seed",
+      "screening_mode"
+    ],
+    "candidate_duplicate_rows": 3648,
+    "metadata_paths": [
+      "\u65b9\u683c\u7f51/results_exp5b_diversity_alpha_sensitivity/diversity_alpha_metadata.json"
+    ],
+    "run_time_code_version": "not stored / not verified",
+    "observed_settings": {
+      "screening_mode": [
+        1,
+        3
+      ],
+      "alpha_conc": [
+        0.18,
+        0.3,
+        0.5,
+        0.8
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp5_concentration_lockin/lockin_difference_in_differences_raw.csv",
+    "sha256": "b07622ceaabc9e727be3f1432f87c412f1d9e733f51b8e7bea78d6d43ba19a09",
+    "rows": 320,
+    "endpoint_valid_rows": null,
+    "invalid_endpoint_rows": [],
+    "missing_cells": 0,
+    "columns": [
+      "risk_fraction",
+      "run_id",
+      "metric",
+      "debt_only_layout_contrast",
+      "exposure_layout_contrast",
+      "did"
+    ],
+    "duplicate_full_rows": 0,
+    "candidate_identity_columns": [
+      "run_id"
+    ],
+    "candidate_duplicate_rows": 320,
+    "metadata_paths": [
+      "\u65b9\u683c\u7f51/results_exp5_concentration_lockin/lockin_experiment_metadata.json"
+    ],
+    "run_time_code_version": "not stored / not verified",
+    "observed_settings": {}
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp5_concentration_lockin/lockin_outcomes_raw.csv",
+    "sha256": "7e284cfee3d1070467dbc965efc2ca83627a29b42aaa5ba640d04d4fc8e6bac3",
+    "rows": 180,
+    "endpoint_valid_rows": null,
+    "invalid_endpoint_rows": [],
+    "missing_cells": 0,
+    "columns": [
+      "risk_fraction",
+      "layout",
+      "model",
+      "alpha_conc",
+      "run_id",
+      "seed",
+      "debt_auc",
+      "exposure_auc",
+      "burden_auc",
+      "lsd_auc",
+      "high_debt_auc",
+      "risky_practice_auc",
+      "concentrated_debt_auc",
+      "largest_high_debt_cluster_auc",
+      "largest_risky_practice_cluster_auc",
+      "early_exposure_auc",
+      "early_largest_high_debt_cluster_auc",
+      "peak_largest_high_debt_cluster",
+      "final_mean_D",
+      "final_exposure",
+      "final_lsd",
+      "final_largest_high_debt_cluster"
+    ],
+    "duplicate_full_rows": 0,
+    "candidate_identity_columns": [
+      "model",
+      "run_id",
+      "seed"
+    ],
+    "candidate_duplicate_rows": 180,
+    "metadata_paths": [
+      "\u65b9\u683c\u7f51/results_exp5_concentration_lockin/lockin_experiment_metadata.json"
+    ],
+    "run_time_code_version": "not stored / not verified",
+    "observed_settings": {
+      "alpha_conc": [
+        0.0,
+        0.3
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp5_concentration_lockin/lockin_time_series_raw.csv",
+    "sha256": "3c86c3e8f9478a2ab415f3a039b9d35128fb1419a7622b61982644a22c7baf3b",
+    "rows": 15120,
+    "endpoint_valid_rows": 15120,
+    "invalid_endpoint_rows": [],
+    "missing_cells": 0,
+    "columns": [
+      "risk_fraction",
+      "layout",
+      "model",
+      "alpha_conc",
+      "run_id",
+      "seed",
+      "time",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "mean_rho",
+      "mean_lsd",
+      "common_mode_exposure",
+      "governance_burden",
+      "high_debt_prevalence",
+      "risky_practice_prevalence",
+      "concentrated_debt_prevalence",
+      "largest_high_debt_cluster",
+      "largest_risky_practice_cluster"
+    ],
+    "duplicate_full_rows": 0,
+    "candidate_identity_columns": [
+      "model",
+      "run_id",
+      "seed"
+    ],
+    "candidate_duplicate_rows": 15120,
+    "metadata_paths": [
+      "\u65b9\u683c\u7f51/results_exp5_concentration_lockin/lockin_experiment_metadata.json"
+    ],
+    "run_time_code_version": "not stored / not verified",
+    "observed_settings": {
+      "alpha_conc": [
+        0.0,
+        0.3
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp5_local_strategy_diversity/diversity_outcomes_raw.csv",
+    "sha256": "388b4a7c90d2ebc510173f855e0aceba2386c7099bd68043edec2b9201677186",
+    "rows": 60,
+    "endpoint_valid_rows": null,
+    "invalid_endpoint_rows": [],
+    "missing_cells": 0,
+    "columns": [
+      "layout",
+      "model",
+      "run_id",
+      "seed",
+      "final_lsd",
+      "lsd_auc",
+      "peak_D",
+      "final_D",
+      "debt_auc",
+      "min_x",
+      "final_x",
+      "final_a",
+      "elapsed_s"
+    ],
+    "duplicate_full_rows": 0,
+    "candidate_identity_columns": [
+      "model",
+      "run_id",
+      "seed"
+    ],
+    "candidate_duplicate_rows": 60,
+    "metadata_paths": [
+      "\u65b9\u683c\u7f51/results_exp5_local_strategy_diversity/diversity_experiment_metadata.json"
+    ],
+    "run_time_code_version": "not stored / not verified",
+    "observed_settings": {}
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp5_local_strategy_diversity/diversity_time_series_raw.csv",
+    "sha256": "4f3abd78446b2f6dcfe29341776cf8ea41b630554cf1000d99101856646c90c9",
+    "rows": 6360,
+    "endpoint_valid_rows": 6360,
+    "invalid_endpoint_rows": [],
+    "missing_cells": 0,
+    "columns": [
+      "layout",
+      "model",
+      "screening_mode",
+      "alpha_conc",
+      "A_env",
+      "run_id",
+      "seed",
+      "time",
+      "mean_lsd",
+      "mean_a",
+      "mean_x",
+      "mean_D",
+      "mean_M",
+      "mean_rho",
+      "mean_rho_D"
+    ],
+    "duplicate_full_rows": 0,
+    "candidate_identity_columns": [
+      "model",
+      "A_env",
+      "run_id",
+      "seed",
+      "screening_mode"
+    ],
+    "candidate_duplicate_rows": 6360,
+    "metadata_paths": [
+      "\u65b9\u683c\u7f51/results_exp5_local_strategy_diversity/diversity_experiment_metadata.json"
+    ],
+    "run_time_code_version": "not stored / not verified",
+    "observed_settings": {
+      "screening_mode": [
+        0,
+        1,
+        3
+      ],
+      "alpha_conc": [
+        0.0,
+        0.18
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp5_local_strategy_diversity_alpha030/diversity_outcomes_raw.csv",
+    "sha256": "caea4fadc5e42e66637a866d1c0ea7f4376fb5d3885528522a509f6636b5bb25",
+    "rows": 60,
+    "endpoint_valid_rows": null,
+    "invalid_endpoint_rows": [],
+    "missing_cells": 0,
+    "columns": [
+      "layout",
+      "model",
+      "run_id",
+      "seed",
+      "final_lsd",
+      "lsd_auc",
+      "peak_D",
+      "final_D",
+      "debt_auc",
+      "min_x",
+      "final_x",
+      "final_a",
+      "elapsed_s"
+    ],
+    "duplicate_full_rows": 0,
+    "candidate_identity_columns": [
+      "model",
+      "run_id",
+      "seed"
+    ],
+    "candidate_duplicate_rows": 60,
+    "metadata_paths": [
+      "\u65b9\u683c\u7f51/results_exp5_local_strategy_diversity_alpha030/diversity_experiment_metadata.json"
+    ],
+    "run_time_code_version": "not stored / not verified",
+    "observed_settings": {}
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp5_local_strategy_diversity_alpha030/diversity_time_series_raw.csv",
+    "sha256": "212176f08ceee2349c6b6bc9bffee050ade8319c7357161abb5c1d04c2a9fe57",
+    "rows": 6360,
+    "endpoint_valid_rows": 6360,
+    "invalid_endpoint_rows": [],
+    "missing_cells": 0,
+    "columns": [
+      "layout",
+      "model",
+      "screening_mode",
+      "alpha_conc",
+      "A_env",
+      "run_id",
+      "seed",
+      "time",
+      "mean_lsd",
+      "mean_a",
+      "mean_x",
+      "mean_D",
+      "mean_M",
+      "mean_rho",
+      "mean_rho_D"
+    ],
+    "duplicate_full_rows": 0,
+    "candidate_identity_columns": [
+      "model",
+      "A_env",
+      "run_id",
+      "seed",
+      "screening_mode"
+    ],
+    "candidate_duplicate_rows": 6360,
+    "metadata_paths": [
+      "\u65b9\u683c\u7f51/results_exp5_local_strategy_diversity_alpha030/diversity_experiment_metadata.json"
+    ],
+    "run_time_code_version": "not stored / not verified",
+    "observed_settings": {
+      "screening_mode": [
+        0,
+        1,
+        3
+      ],
+      "alpha_conc": [
+        0.0,
+        0.3
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp5_targeted_governance_efficiency/governance_outcomes_raw.csv",
+    "sha256": "07c0a86cdd02038fe713656a81016fc399e28f8b9521935d1f25de57823eaf2f",
+    "rows": 140,
+    "endpoint_valid_rows": null,
+    "invalid_endpoint_rows": [],
+    "missing_cells": 0,
+    "columns": [
+      "layout",
+      "model",
+      "screening_mode",
+      "alpha_conc",
+      "run_id",
+      "seed",
+      "burden_auc",
+      "debt_auc",
+      "outside_debt_auc",
+      "risk_practice_auc",
+      "outside_risk_practice_auc",
+      "final_D",
+      "final_outside_D",
+      "peak_outside_D",
+      "final_x",
+      "final_a",
+      "final_lsd",
+      "elapsed_s"
+    ],
+    "duplicate_full_rows": 0,
+    "candidate_identity_columns": [
+      "model",
+      "run_id",
+      "seed",
+      "screening_mode"
+    ],
+    "candidate_duplicate_rows": 140,
+    "metadata_paths": [
+      "\u65b9\u683c\u7f51/results_exp5_targeted_governance_efficiency/governance_experiment_metadata.json"
+    ],
+    "run_time_code_version": "not stored / not verified",
+    "observed_settings": {
+      "screening_mode": [
+        0,
+        1,
+        3
+      ],
+      "alpha_conc": [
+        0.0,
+        0.18,
+        0.3,
+        0.5
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_exp5_targeted_governance_efficiency/governance_time_series_raw.csv",
+    "sha256": "21e651189dfe214a20a88cb82b600c6804636ec85cd50a4c7054ecf924bb69fb",
+    "rows": 14840,
+    "endpoint_valid_rows": 14840,
+    "invalid_endpoint_rows": [],
+    "missing_cells": 0,
+    "columns": [
+      "layout",
+      "model",
+      "screening_mode",
+      "alpha_conc",
+      "A_env",
+      "run_id",
+      "seed",
+      "time",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "mean_lsd",
+      "mean_rho",
+      "mean_risk_practice",
+      "inside_D",
+      "outside_D",
+      "outside_risk_practice",
+      "screening_burden",
+      "counterfactual_D_burden",
+      "counterfactual_rhoD_burden"
+    ],
+    "duplicate_full_rows": 0,
+    "candidate_identity_columns": [
+      "model",
+      "A_env",
+      "run_id",
+      "seed",
+      "screening_mode"
+    ],
+    "candidate_duplicate_rows": 14840,
+    "metadata_paths": [
+      "\u65b9\u683c\u7f51/results_exp5_targeted_governance_efficiency/governance_experiment_metadata.json"
+    ],
+    "run_time_code_version": "not stored / not verified",
+    "observed_settings": {
+      "screening_mode": [
+        0,
+        1,
+        3
+      ],
+      "alpha_conc": [
+        0.0,
+        0.18,
+        0.3,
+        0.5
+      ]
+    }
+  },
+  {
+    "path": "\u65b9\u683c\u7f51/results_qa_public_good_validation/qa_public_good_raw.csv",
+    "sha256": "161331dee9a9b27aee1560bd207ac5624ae1a5b15d2c49d99c42fae08b86495b",
+    "rows": 660,
+    "endpoint_valid_rows": 660,
+    "invalid_endpoint_rows": [],
+    "missing_cells": 0,
+    "columns": [
+      "model_variant",
+      "qa_sharing_eta",
+      "qa_sharing_label",
+      "A_env",
+      "seed",
+      "steps",
+      "tail_window",
+      "sample_every",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "mean_payoff",
+      "sd_x_tail",
+      "sd_a_tail",
+      "sd_D_tail",
+      "sd_M_tail"
+    ],
+    "duplicate_full_rows": 0,
+    "candidate_identity_columns": [
+      "A_env",
+      "seed"
+    ],
+    "candidate_duplicate_rows": 660,
+    "metadata_paths": [
+      "\u65b9\u683c\u7f51/results_qa_public_good_validation/experiment_config.json"
+    ],
+    "run_time_code_version": "not stored / not verified",
+    "observed_settings": {
+      "steps": [
+        10000
+      ]
+    }
+  },
+  {
+    "path": "topology_robustness/results_exp2_scale_free/experiment_2_scale_free_raw.csv",
+    "sha256": "c01f76a302ec6579c9f05a8d1eea6a3000c960e36ce246b455e989641ae242b4",
+    "rows": 660,
+    "endpoint_valid_rows": 660,
+    "invalid_endpoint_rows": [],
+    "missing_cells": 0,
+    "columns": [
+      "topology",
+      "model",
+      "A_env",
+      "run_id",
+      "seed",
+      "num_nodes",
+      "steps",
+      "steady_window",
+      "sample_interval",
+      "sample_count",
+      "w_payoff",
+      "w_memory",
+      "alpha_conc",
+      "memory_gate_strength",
+      "elapsed_seconds",
+      "network_type",
+      "network_scale_free_m",
+      "network_nodes",
+      "network_edges",
+      "network_mean_degree",
+      "network_min_degree",
+      "network_max_degree",
+      "mean_x",
+      "std_x_time",
+      "tail_drift_x",
+      "mean_a",
+      "std_a_time",
+      "tail_drift_a",
+      "mean_D",
+      "std_D_time",
+      "tail_drift_D",
+      "mean_M",
+      "std_M_time",
+      "tail_drift_M"
+    ],
+    "duplicate_full_rows": 0,
+    "candidate_identity_columns": [
+      "model",
+      "A_env",
+      "run_id",
+      "seed"
+    ],
+    "candidate_duplicate_rows": 0,
+    "metadata_paths": [
+      "topology_robustness/results_exp2_scale_free/experiment_2_scale_free_metadata.json"
+    ],
+    "run_time_code_version": "not stored / not verified",
+    "observed_settings": {
+      "num_nodes": [
+        10000
+      ],
+      "steps": [
+        20000
+      ],
+      "steady_window": [
+        500
+      ],
+      "sample_interval": [
+        10
+      ],
+      "w_payoff": [
+        1.0,
+        0.88
+      ],
+      "w_memory": [
+        0.0,
+        0.12
+      ],
+      "alpha_conc": [
+        0.0,
+        0.18
+      ]
+    }
+  },
+  {
+    "path": "topology_robustness/results_exp2_scale_free_concentration_gate/experiment_2_scale_free_raw.csv",
+    "sha256": "730295dba694e4c6946c59fac108e3a391bf8f8780f613cfd2d10e858d1a1eb7",
+    "rows": 440,
+    "endpoint_valid_rows": 440,
+    "invalid_endpoint_rows": [],
+    "missing_cells": 0,
+    "columns": [
+      "topology",
+      "model",
+      "A_env",
+      "run_id",
+      "seed",
+      "num_nodes",
+      "steps",
+      "steady_window",
+      "sample_interval",
+      "sample_count",
+      "w_payoff",
+      "w_memory",
+      "alpha_conc",
+      "memory_affinity_enabled",
+      "concentration_gate_enabled",
+      "regulation_formula",
+      "elapsed_seconds",
+      "network_type",
+      "network_scale_free_m",
+      "network_nodes",
+      "network_edges",
+      "network_mean_degree",
+      "network_min_degree",
+      "network_max_degree",
+      "mean_x",
+      "std_x_time",
+      "tail_drift_x",
+      "mean_a",
+      "std_a_time",
+      "tail_drift_a",
+      "mean_D",
+      "std_D_time",
+      "tail_drift_D",
+      "mean_M",
+      "std_M_time",
+      "tail_drift_M"
+    ],
+    "duplicate_full_rows": 0,
+    "candidate_identity_columns": [
+      "model",
+      "A_env",
+      "run_id",
+      "seed"
+    ],
+    "candidate_duplicate_rows": 0,
+    "metadata_paths": [
+      "topology_robustness/results_exp2_scale_free_concentration_gate/experiment_2_scale_free_metadata.json"
+    ],
+    "run_time_code_version": "not stored / not verified",
+    "observed_settings": {
+      "num_nodes": [
+        10000
+      ],
+      "steps": [
+        50000
+      ],
+      "steady_window": [
+        500
+      ],
+      "sample_interval": [
+        10
+      ],
+      "w_payoff": [
+        1.0,
+        0.88
+      ],
+      "w_memory": [
+        0.0,
+        0.12
+      ],
+      "alpha_conc": [
+        0.0,
+        0.18
+      ]
+    }
+  },
+  {
+    "path": "topology_robustness/results_exp2_scale_free_no_gate/experiment_2_scale_free_raw.csv",
+    "sha256": "5efe9011d902cad11bc42d1df2273cd807a7ba03209975d301f3d2a634371cb6",
+    "rows": 440,
+    "endpoint_valid_rows": 440,
+    "invalid_endpoint_rows": [],
+    "missing_cells": 0,
+    "columns": [
+      "topology",
+      "model",
+      "A_env",
+      "run_id",
+      "seed",
+      "num_nodes",
+      "steps",
+      "steady_window",
+      "sample_interval",
+      "sample_count",
+      "w_payoff",
+      "w_memory",
+      "alpha_conc",
+      "elapsed_seconds",
+      "network_type",
+      "network_scale_free_m",
+      "network_nodes",
+      "network_edges",
+      "network_mean_degree",
+      "network_min_degree",
+      "network_max_degree",
+      "mean_x",
+      "std_x_time",
+      "tail_drift_x",
+      "mean_a",
+      "std_a_time",
+      "tail_drift_a",
+      "mean_D",
+      "std_D_time",
+      "tail_drift_D",
+      "mean_M",
+      "std_M_time",
+      "tail_drift_M"
+    ],
+    "duplicate_full_rows": 0,
+    "candidate_identity_columns": [
+      "model",
+      "A_env",
+      "run_id",
+      "seed"
+    ],
+    "candidate_duplicate_rows": 0,
+    "metadata_paths": [
+      "topology_robustness/results_exp2_scale_free_no_gate/experiment_2_scale_free_metadata.json"
+    ],
+    "run_time_code_version": "not stored / not verified",
+    "observed_settings": {
+      "num_nodes": [
+        10000
+      ],
+      "steps": [
+        20000
+      ],
+      "steady_window": [
+        500
+      ],
+      "sample_interval": [
+        10
+      ],
+      "w_payoff": [
+        1.0,
+        0.88
+      ],
+      "w_memory": [
+        0.0,
+        0.12
+      ],
+      "alpha_conc": [
+        0.0,
+        0.18
+      ]
+    }
+  },
+  {
+    "path": "topology_robustness/results_exp2_small_world/experiment_2_small_world_raw.csv",
+    "sha256": "6c72ec5b37255bf1b0da47279519e508cdbfe4bff311ed7cf5e8dacbbf313c9e",
+    "rows": 660,
+    "endpoint_valid_rows": 660,
+    "invalid_endpoint_rows": [],
+    "missing_cells": 0,
+    "columns": [
+      "topology",
+      "model",
+      "A_env",
+      "run_id",
+      "seed",
+      "num_nodes",
+      "steps",
+      "steady_window",
+      "sample_interval",
+      "sample_count",
+      "w_payoff",
+      "w_memory",
+      "alpha_conc",
+      "memory_gate_strength",
+      "elapsed_seconds",
+      "network_type",
+      "network_small_world_k",
+      "network_small_world_p",
+      "network_nodes",
+      "network_edges",
+      "network_mean_degree",
+      "network_min_degree",
+      "network_max_degree",
+      "mean_x",
+      "std_x_time",
+      "tail_drift_x",
+      "mean_a",
+      "std_a_time",
+      "tail_drift_a",
+      "mean_D",
+      "std_D_time",
+      "tail_drift_D",
+      "mean_M",
+      "std_M_time",
+      "tail_drift_M"
+    ],
+    "duplicate_full_rows": 0,
+    "candidate_identity_columns": [
+      "model",
+      "A_env",
+      "run_id",
+      "seed"
+    ],
+    "candidate_duplicate_rows": 0,
+    "metadata_paths": [
+      "topology_robustness/results_exp2_small_world/experiment_2_small_world_metadata.json"
+    ],
+    "run_time_code_version": "not stored / not verified",
+    "observed_settings": {
+      "num_nodes": [
+        10000
+      ],
+      "steps": [
+        20000
+      ],
+      "steady_window": [
+        500
+      ],
+      "sample_interval": [
+        10
+      ],
+      "w_payoff": [
+        1.0,
+        0.88
+      ],
+      "w_memory": [
+        0.0,
+        0.12
+      ],
+      "alpha_conc": [
+        0.0,
+        0.18
+      ]
+    }
+  },
+  {
+    "path": "topology_robustness/results_exp2_small_world_concentration_gate/experiment_2_small_world_raw.csv",
+    "sha256": "d25d02c9749b8413ac55329dbacde329f10af2c30ed62c726275e451b2947413",
+    "rows": 440,
+    "endpoint_valid_rows": 440,
+    "invalid_endpoint_rows": [],
+    "missing_cells": 0,
+    "columns": [
+      "topology",
+      "model",
+      "A_env",
+      "run_id",
+      "seed",
+      "num_nodes",
+      "steps",
+      "steady_window",
+      "sample_interval",
+      "sample_count",
+      "w_payoff",
+      "w_memory",
+      "alpha_conc",
+      "memory_affinity_enabled",
+      "concentration_gate_enabled",
+      "regulation_formula",
+      "elapsed_seconds",
+      "network_type",
+      "network_small_world_k",
+      "network_small_world_p",
+      "network_nodes",
+      "network_edges",
+      "network_mean_degree",
+      "network_min_degree",
+      "network_max_degree",
+      "mean_x",
+      "std_x_time",
+      "tail_drift_x",
+      "mean_a",
+      "std_a_time",
+      "tail_drift_a",
+      "mean_D",
+      "std_D_time",
+      "tail_drift_D",
+      "mean_M",
+      "std_M_time",
+      "tail_drift_M"
+    ],
+    "duplicate_full_rows": 0,
+    "candidate_identity_columns": [
+      "model",
+      "A_env",
+      "run_id",
+      "seed"
+    ],
+    "candidate_duplicate_rows": 0,
+    "metadata_paths": [
+      "topology_robustness/results_exp2_small_world_concentration_gate/experiment_2_small_world_metadata.json"
+    ],
+    "run_time_code_version": "not stored / not verified",
+    "observed_settings": {
+      "num_nodes": [
+        10000
+      ],
+      "steps": [
+        50000
+      ],
+      "steady_window": [
+        500
+      ],
+      "sample_interval": [
+        10
+      ],
+      "w_payoff": [
+        1.0,
+        0.88
+      ],
+      "w_memory": [
+        0.0,
+        0.12
+      ],
+      "alpha_conc": [
+        0.0,
+        0.18
+      ]
+    }
+  },
+  {
+    "path": "topology_robustness/results_exp2_small_world_no_gate/experiment_2_small_world_raw.csv",
+    "sha256": "ec82ba298158401236b886ac29c6e05d5781aef0ba9f8bd32792379c59149d46",
+    "rows": 440,
+    "endpoint_valid_rows": 440,
+    "invalid_endpoint_rows": [],
+    "missing_cells": 0,
+    "columns": [
+      "topology",
+      "model",
+      "A_env",
+      "run_id",
+      "seed",
+      "num_nodes",
+      "steps",
+      "steady_window",
+      "sample_interval",
+      "sample_count",
+      "w_payoff",
+      "w_memory",
+      "alpha_conc",
+      "elapsed_seconds",
+      "network_type",
+      "network_small_world_k",
+      "network_small_world_p",
+      "network_nodes",
+      "network_edges",
+      "network_mean_degree",
+      "network_min_degree",
+      "network_max_degree",
+      "mean_x",
+      "std_x_time",
+      "tail_drift_x",
+      "mean_a",
+      "std_a_time",
+      "tail_drift_a",
+      "mean_D",
+      "std_D_time",
+      "tail_drift_D",
+      "mean_M",
+      "std_M_time",
+      "tail_drift_M"
+    ],
+    "duplicate_full_rows": 0,
+    "candidate_identity_columns": [
+      "model",
+      "A_env",
+      "run_id",
+      "seed"
+    ],
+    "candidate_duplicate_rows": 0,
+    "metadata_paths": [
+      "topology_robustness/results_exp2_small_world_no_gate/experiment_2_small_world_metadata.json"
+    ],
+    "run_time_code_version": "not stored / not verified",
+    "observed_settings": {
+      "num_nodes": [
+        10000
+      ],
+      "steps": [
+        20000
+      ],
+      "steady_window": [
+        500
+      ],
+      "sample_interval": [
+        10
+      ],
+      "w_payoff": [
+        1.0,
+        0.88
+      ],
+      "w_memory": [
+        0.0,
+        0.12
+      ],
+      "alpha_conc": [
+        0.0,
+        0.18
+      ]
+    }
+  },
+  {
+    "path": "tmp/exp2_fermi_gpu_smoke/experiment_2_raw.csv",
+    "sha256": "f38e9a8fd36a0b5716e53ab6689197d613411f81a92ead1b4f9dc198cf6ddae0",
+    "rows": 1,
+    "endpoint_valid_rows": 1,
+    "invalid_endpoint_rows": [],
+    "missing_cells": 0,
+    "columns": [
+      "model",
+      "A_env",
+      "run_id",
+      "seed",
+      "grid_size",
+      "steps",
+      "steady_window",
+      "w_payoff",
+      "w_memory",
+      "alpha_conc",
+      "selection_rule",
+      "fermi_K",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "mean_payoff",
+      "std_x_time",
+      "std_a_time",
+      "std_D_time",
+      "std_M_time",
+      "std_payoff_time",
+      "elapsed_seconds"
+    ],
+    "duplicate_full_rows": 0,
+    "candidate_identity_columns": [
+      "model",
+      "A_env",
+      "run_id",
+      "seed"
+    ],
+    "candidate_duplicate_rows": 0,
+    "metadata_paths": [],
+    "run_time_code_version": "not stored / not verified",
+    "observed_settings": {
+      "grid_size": [
+        6
+      ],
+      "steps": [
+        3
+      ],
+      "steady_window": [
+        1
+      ],
+      "w_payoff": [
+        1.0
+      ],
+      "w_memory": [
+        0.0
+      ],
+      "alpha_conc": [
+        0.0
+      ]
+    }
+  },
+  {
+    "path": "tmp/exp5_gpu_smoke/governance_outcomes_raw.csv",
+    "sha256": "0ca9f1c703b081c1694b557b8279c126ee78ef497f0c644d4345aa6302a426ce",
+    "rows": 6,
+    "endpoint_valid_rows": null,
+    "invalid_endpoint_rows": [],
+    "missing_cells": 0,
+    "columns": [
+      "layout",
+      "model",
+      "screening_mode",
+      "alpha_conc",
+      "run_id",
+      "seed",
+      "burden_auc",
+      "debt_auc",
+      "outside_debt_auc",
+      "risk_practice_auc",
+      "outside_risk_practice_auc",
+      "final_D",
+      "final_outside_D",
+      "peak_outside_D",
+      "final_x",
+      "final_a",
+      "final_lsd",
+      "elapsed_s"
+    ],
+    "duplicate_full_rows": 0,
+    "candidate_identity_columns": [
+      "model",
+      "run_id",
+      "seed",
+      "screening_mode"
+    ],
+    "candidate_duplicate_rows": 6,
+    "metadata_paths": [
+      "tmp/exp5_gpu_smoke/governance_experiment_metadata.json"
+    ],
+    "run_time_code_version": "not stored / not verified",
+    "observed_settings": {
+      "screening_mode": [
+        0,
+        1,
+        3
+      ],
+      "alpha_conc": [
+        0.0,
+        0.18
+      ]
+    }
+  },
+  {
+    "path": "tmp/exp5_gpu_smoke/governance_time_series_raw.csv",
+    "sha256": "d74236c25ac4065ca5726a5f5d47bd26b7931a4c792e96f14e414b12ad4e33c6",
+    "rows": 132,
+    "endpoint_valid_rows": 132,
+    "invalid_endpoint_rows": [],
+    "missing_cells": 0,
+    "columns": [
+      "layout",
+      "model",
+      "screening_mode",
+      "alpha_conc",
+      "A_env",
+      "run_id",
+      "seed",
+      "time",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "mean_lsd",
+      "mean_rho",
+      "mean_risk_practice",
+      "inside_D",
+      "outside_D",
+      "outside_risk_practice",
+      "screening_burden",
+      "counterfactual_D_burden",
+      "counterfactual_rhoD_burden"
+    ],
+    "duplicate_full_rows": 0,
+    "candidate_identity_columns": [
+      "model",
+      "A_env",
+      "run_id",
+      "seed",
+      "screening_mode"
+    ],
+    "candidate_duplicate_rows": 132,
+    "metadata_paths": [
+      "tmp/exp5_gpu_smoke/governance_experiment_metadata.json"
+    ],
+    "run_time_code_version": "not stored / not verified",
+    "observed_settings": {
+      "screening_mode": [
+        0,
+        1,
+        3
+      ],
+      "alpha_conc": [
+        0.0,
+        0.18
+      ]
+    }
+  },
+  {
+    "path": "tmp/exp5_lockin_pilot/lockin_difference_in_differences_raw.csv",
+    "sha256": "3480a74cb6bd740b097ae6fe4ff89439adc1a4ce2c8ebf5e37d0a5e938473b6f",
+    "rows": 64,
+    "endpoint_valid_rows": null,
+    "invalid_endpoint_rows": [],
+    "missing_cells": 0,
+    "columns": [
+      "risk_fraction",
+      "run_id",
+      "metric",
+      "debt_only_layout_contrast",
+      "exposure_layout_contrast",
+      "did"
+    ],
+    "duplicate_full_rows": 0,
+    "candidate_identity_columns": [
+      "run_id"
+    ],
+    "candidate_duplicate_rows": 64,
+    "metadata_paths": [
+      "tmp/exp5_lockin_pilot/lockin_experiment_metadata.json"
+    ],
+    "run_time_code_version": "not stored / not verified",
+    "observed_settings": {}
+  },
+  {
+    "path": "tmp/exp5_lockin_pilot/lockin_outcomes_raw.csv",
+    "sha256": "76ce2b54448d384398f493dd25f5da4b2b270371a592ab261318d5bf913a39d0",
+    "rows": 36,
+    "endpoint_valid_rows": null,
+    "invalid_endpoint_rows": [],
+    "missing_cells": 0,
+    "columns": [
+      "risk_fraction",
+      "layout",
+      "model",
+      "alpha_conc",
+      "run_id",
+      "seed",
+      "debt_auc",
+      "exposure_auc",
+      "burden_auc",
+      "lsd_auc",
+      "high_debt_auc",
+      "risky_practice_auc",
+      "concentrated_debt_auc",
+      "largest_high_debt_cluster_auc",
+      "largest_risky_practice_cluster_auc",
+      "early_exposure_auc",
+      "early_largest_high_debt_cluster_auc",
+      "peak_largest_high_debt_cluster",
+      "final_mean_D",
+      "final_exposure",
+      "final_lsd",
+      "final_largest_high_debt_cluster"
+    ],
+    "duplicate_full_rows": 0,
+    "candidate_identity_columns": [
+      "model",
+      "run_id",
+      "seed"
+    ],
+    "candidate_duplicate_rows": 36,
+    "metadata_paths": [
+      "tmp/exp5_lockin_pilot/lockin_experiment_metadata.json"
+    ],
+    "run_time_code_version": "not stored / not verified",
+    "observed_settings": {
+      "alpha_conc": [
+        0.0,
+        0.3
+      ]
+    }
+  },
+  {
+    "path": "tmp/exp5_lockin_pilot/lockin_time_series_raw.csv",
+    "sha256": "e2b03c40268abcc316bd757ea9129dac4acfe8109d3206924bce97e89d76ec0f",
+    "rows": 2088,
+    "endpoint_valid_rows": 2088,
+    "invalid_endpoint_rows": [],
+    "missing_cells": 0,
+    "columns": [
+      "risk_fraction",
+      "layout",
+      "model",
+      "alpha_conc",
+      "run_id",
+      "seed",
+      "time",
+      "mean_x",
+      "mean_a",
+      "mean_D",
+      "mean_M",
+      "mean_rho",
+      "mean_lsd",
+      "common_mode_exposure",
+      "governance_burden",
+      "high_debt_prevalence",
+      "risky_practice_prevalence",
+      "concentrated_debt_prevalence",
+      "largest_high_debt_cluster",
+      "largest_risky_practice_cluster"
+    ],
+    "duplicate_full_rows": 0,
+    "candidate_identity_columns": [
+      "model",
+      "run_id",
+      "seed"
+    ],
+    "candidate_duplicate_rows": 2088,
+    "metadata_paths": [
+      "tmp/exp5_lockin_pilot/lockin_experiment_metadata.json"
+    ],
+    "run_time_code_version": "not stored / not verified",
+    "observed_settings": {
+      "alpha_conc": [
+        0.0,
+        0.3
+      ]
+    }
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "scope": "New public artifact and modified root documentation",
+  "patterns_checked": [
+    "private_windows_path",
+    "private_home_path",
+    "github_token",
+    "private_key",
+    "aws_key",
+    "url_credentials",
+    "gpu_uuid"
+  ],
+  "unresolved_matches": [],
+  "code_csv_hashes_preserved": true,
+  "machine_specific_redactions": "Executable paths, original workspace prefixes, PCI/device snapshots and process listing; software/GPU/CUDA/driver versions retained",
+  "known_public_identifier": "Repository owner/path is intentionally retained as the user-specified destination."
+}

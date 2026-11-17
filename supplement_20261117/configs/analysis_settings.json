@@ -1,0 +1,12 @@
+{
+  "quantiles": "linear / Hyndman-Fan type 7",
+  "joint_criterion": "mean_x > 0.8 and mean_D < 0.2, per realization, unrounded",
+  "jitter": "deterministic equally spaced horizontal offsets, sorted seed then run_id; vertical values unchanged",
+  "drift": "second-half minus first-half mean; 49501..49750 vs 49751..50000, sampled every round",
+  "formal_pairing": [
+    "A_env",
+    "run_id",
+    "seed"
+  ],
+  "ci": "Student-t of per-seed differences, ddof=1; two-sided 95%"
+}

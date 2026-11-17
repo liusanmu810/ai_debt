@@ -1,0 +1,33 @@
+{
+  "input_raw": "source-workspace/\u65b9\u683c\u7f51/results_exp2_four_group_concentration_gate/experiment_2_raw.csv",
+  "output_dir": "source-workspace/\u65b9\u683c\u7f51/results_exp2_four_group_concentration_gate/refined_figures",
+  "models": [
+    "Payoff-only",
+    "Payoff+MemoryAffinity",
+    "Payoff+ConcentrationGate",
+    "Full Model"
+  ],
+  "A_values": [
+    0.0,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1.0
+  ],
+  "runs_per_condition": 10,
+  "uncertainty": "95% Student-t confidence interval across independent seeds",
+  "high_A_for_paired_effects": 0.6,
+  "figure_outcomes": [
+    "mean_a",
+    "mean_x",
+    "mean_D",
+    "mean_M",
+    "mean_payoff"
+  ]
+}

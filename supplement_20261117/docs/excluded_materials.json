@@ -1,0 +1,50 @@
+[
+  {
+    "path": "MANIFEST_SHA256.csv",
+    "reason": "Replaced by public documentation"
+  },
+  {
+    "path": "README.md",
+    "reason": "Replaced by public documentation"
+  },
+  {
+    "path": "analysis/audit_sources.py",
+    "reason": "Workspace-only developer tool; not a reader entry point"
+  },
+  {
+    "path": "analysis/finalize.py",
+    "reason": "Workspace-only developer tool; not a reader entry point"
+  },
+  {
+    "path": "docs/existing_results.md",
+    "reason": "Replaced by public documentation"
+  },
+  {
+    "path": "docs/new_results_english.md",
+    "reason": "Replaced by public documentation"
+  },
+  {
+    "path": "docs/publication_checklist.md",
+    "reason": "Replaced by public documentation"
+  },
+  {
+    "path": "docs/results_report.md",
+    "reason": "Replaced by public documentation"
+  },
+  {
+    "path": "docs/suggested_english.md",
+    "reason": "Replaced by public documentation"
+  },
+  {
+    "path": "code/__pycache__/core_driver.cpython-313.pyc",
+    "reason": "Python cache; not in original ZIP and not public"
+  },
+  {
+    "path": "code/__pycache__/MODEL.cpython-313.pyc",
+    "reason": "Python cache; not in original ZIP and not public"
+  },
+  {
+    "path": "analysis/__pycache__/analyze.cpython-313.pyc",
+    "reason": "Python cache; not in original ZIP and not public"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "core_target_rows": 80,
+  "core_joint_total": 10,
+  "source_input_sha256_verified": true,
+  "functional_test_passed": true,
+  "formal_complete": true,
+  "formal_rows": 90,
+  "formal_results_verified": true
+}

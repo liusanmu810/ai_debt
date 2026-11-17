@@ -1,0 +1,74 @@
+{
+  "grid_size": 100,
+  "steps": 50000,
+  "steady_window": 500,
+  "sample_interval": 1,
+  "A_values": [
+    0.5,
+    0.6,
+    0.7
+  ],
+  "runs": 10,
+  "seed_base": 20260514,
+  "seeds": [
+    20260514,
+    20270514,
+    20280514,
+    20290514,
+    20300514,
+    20310514,
+    20320514,
+    20330514,
+    20340514,
+    20350514
+  ],
+  "base_params": {
+    "delta_D": 0.06,
+    "beta_a": 0.095,
+    "omega_D": 0.42,
+    "beta_N": 0.01,
+    "mu_x": 0.04,
+    "kappa_D": 0.32,
+    "spillover_include_self": false,
+    "r_public": 3.2,
+    "theta_D": 0.55,
+    "b_ai": 2.3,
+    "chi_x": 0.55,
+    "c_x": 1.0,
+    "c_a": 0.21,
+    "tau_D": 0.45,
+    "lambda_0": 0.1,
+    "lambda_A": 0.48,
+    "u_D": 2.8,
+    "w_payoff": 0.88,
+    "w_memory": 0.12,
+    "K_P": 1.2,
+    "K_M": 1.2,
+    "delta": 0.3,
+    "lambda_a": 1.0,
+    "concentration_include_self": false,
+    "alpha_conc": 0.18,
+    "screening_mode": 3,
+    "selection_rule": 0,
+    "fermi_K": 0.1,
+    "sigma_min": 0.001,
+    "sigma_max": 0.055,
+    "learning_rate": 0.13,
+    "init_D_max": 0.02
+  },
+  "groups": {
+    "Proxy-coupled diffusion (no gate)": {
+      "screening_mode": 0,
+      "alpha_conc": 0.0
+    },
+    "Reliability-only gate": {
+      "screening_mode": 1,
+      "alpha_conc": 0.18
+    },
+    "Full model (true concentration)": {
+      "screening_mode": 3,
+      "alpha_conc": 0.18
+    }
+  },
+  "reuse": "No historical rows reused: execution-time model hashes and complete ablation metadata not preserved."
+}

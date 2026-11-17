@@ -1,0 +1,2 @@
+# Preserve exact archived bytes, including historical execution hashes.
+/supplement_20261117/** -text -filter -ident -working-tree-encoding
