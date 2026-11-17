@@ -2,8 +2,8 @@
   {
     "path": "README.md",
     "original_sha256": "0f3b80405650f437fb8e8e1f16331ec3751ecb192c44379563739d781f0341a9",
-    "public_sha256": "1f4472fe3bceb9e003ee1b5fa5a073d4836808406db893d5937bcd4f8de7ee01",
-    "action": "Public documentation rewrite / explicit result and provenance scope"
+    "public_sha256": "46bc52e892f151d47a0d409ae16db6bb3a8c20e1730e153153f2dd9131e83878",
+    "action": "Public documentation rewrite; actual published status synchronized after anonymous access verification. Scientific inputs unchanged."
   },
   {
     "path": "configs/analysis_settings.json",
@@ -74,8 +74,8 @@
   {
     "path": "docs/publication_checklist.md",
     "original_sha256": "9fefd42f9c6dc046a9d5fd732d12a2bc564999763a9dc1c8ee862051bdd2b429",
-    "public_sha256": "ba20c006ef2dcdf0837f3f24d3e68941ef488520f63a79fca1533a717886d5a5",
-    "action": "Public documentation rewrite / explicit result and provenance scope"
+    "public_sha256": "d4ace1200db9d4c2ae4cc0b7a068634be8b3000fc8761183f0a194de9e76bed2",
+    "action": "Public documentation rewrite; actual published status synchronized after anonymous access verification. Scientific inputs unchanged."
   },
   {
     "path": "docs/validation.json",

@@ -1,6 +1,6 @@
 # Reproducibility package: realization-level outcomes and gate comparisons
 
-This research artifact supports selected results in **AI-Induced Technical Debt in Networked Software Teams: An Evolutionary Public-Goods Game Model**. Its dated directory name is a version identifier; it does not denote a separate manuscript appendix. Data and archived execution sources are kept together with their relative paths.
+This research artifact supports selected results in **AI-Induced Technical Debt in Networked Software Teams: An Evolutionary Public-Goods Game Model**. Its dated directory name is a version identifier; it does not denote a separate manuscript appendix. Data and archived execution sources are kept together with their relative paths. The package is publicly available in [manuscript-linked commit `3af6ada6f63b`](https://github.com/liusanmu810/ai_debt/tree/3af6ada6f63bdbeac3825b6fa9b56e1cab38a436/supplement_20261117). All 100 manifest-listed files in that immutable snapshot were verified through anonymous HTTPS access and matching SHA256 values. Later documentation-only commits do not change that cited data snapshot.
 
 ## Scope and results
 
@@ -39,7 +39,7 @@ Saved sweep drift is the mean of rounds 49,751–50,000 minus the mean of rounds
 
 ## GPU simulation from scratch (separate optional task)
 
-No GPU experiment was executed during this publication preparation. `requirements-observed-gpu.txt` records the historical dependency versions; the observed hardware/software information is in `new_experiments/formal/environment.json`. It retains GPU model, Python/dependency, CUDA runtime, CUDA driver and display-driver versions while omitting machine-specific paths and device/process snapshots. Compatibility must be checked on the reader's machine.
+No GPU experiment was executed during this publication preparation. `requirements-observed-gpu.txt` records the historical dependency versions; the observed hardware/software information is in `new_experiments/formal/environment.json`. It retains the actual targeted gate-form runs' GPU model, Python/dependency, CUDA runtime, CUDA driver and display-driver versions while omitting machine-specific paths and device/process snapshots. These records do not recover execution environments for every historical experiment. Compatibility must be checked on the reader's machine.
 
 The frozen runner writes environment/configuration/hash files **even without --formal**, so do not call it merely to validate archived settings. To run the 90-condition protocol from scratch, create another new sibling copy while omitting the historical formal-output directory; leave the published artifact untouched:
 
